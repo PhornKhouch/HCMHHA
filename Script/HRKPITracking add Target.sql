@@ -1,0 +1,1 @@
+alter Table HRKPITracking add Target decimal(18, 2)

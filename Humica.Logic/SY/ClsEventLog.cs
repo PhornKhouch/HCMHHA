@@ -1,0 +1,52 @@
+﻿using Humica.EF.MD;
+using Humica.EF.Models.SY;
+using System;
+using System.Threading.Tasks;
+
+namespace Humica.Logic.SY
+{
+    public class ClsEventLog
+    {
+        public static async Task  SaveEventLog(string screenId, string userId, string documentAction, string action, Exception e, bool isUpdateException = false)
+        {
+            SYEventLog log = new SYEventLog
+            {
+                ScreenId = screenId,
+                UserId = userId,
+                DocurmentAction = documentAction,
+                Action = action
+            };
+
+            SYEventLogObject.saveEventLog(log, e, isUpdateException);
+        }
+        public static void SaveEventLogs(string screenId, string userId, string documentAction, string action, Exception e, bool isUpdateException = false)
+        {
+            SYEventLog log = new SYEventLog
+            {
+                ScreenId = screenId,
+                UserId = userId,
+                DocurmentAction = documentAction,
+                Action = action
+            };
+
+            SYEventLogObject.saveEventLog(log, e, isUpdateException);
+        }
+        public static string Save_EventLog(string screenId, string userId, string documentAction, string action, Exception e, bool isUpdateException = false)
+        {
+            if(e.InnerException!= null)
+            {
+               var str= e.InnerException.Message.Replace("\n", "\n--");
+            }
+            SYEventLog log = new SYEventLog
+            {
+                ScreenId = screenId,
+                UserId = userId,
+                DocurmentAction = documentAction,
+                Action = action
+            };
+
+            SYEventLogObject.saveEventLog(log, e, isUpdateException);
+            return "EE001";
+        }
+    }
+}

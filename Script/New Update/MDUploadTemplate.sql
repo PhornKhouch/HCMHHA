@@ -1,0 +1,1 @@
+ALTER TABLE MDUploadTemplate ADD UploadByName nvarchar(100)

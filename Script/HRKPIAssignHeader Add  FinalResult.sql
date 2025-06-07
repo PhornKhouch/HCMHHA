@@ -1,0 +1,1 @@
+alter Table HRKPIAssignHeader Add  FinalResult Decimal(18,4)

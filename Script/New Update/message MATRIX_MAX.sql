@@ -1,0 +1,1 @@
+insert SYMessage values('RATING_MAX','EN','SY','E','Rating is Maximum','')

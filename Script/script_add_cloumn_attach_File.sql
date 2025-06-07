@@ -1,0 +1,1 @@
+ALTER TABLE HREmpCareer ADD Attachfile NVARCHAR(200) NULL;

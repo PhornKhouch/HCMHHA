@@ -1,0 +1,1 @@
+alter Table HRKPITimeSheet add TotalHours Nvarchar(100)

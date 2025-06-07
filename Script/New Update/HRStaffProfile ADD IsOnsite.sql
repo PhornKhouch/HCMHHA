@@ -1,0 +1,2 @@
+ALTER TABLE HRStaffProfile ADD IsOnsite BIT NOT NULL DEFAULT 0
+

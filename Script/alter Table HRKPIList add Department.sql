@@ -1,0 +1,1 @@
+alter Table HRKPIList add Department nvarchar(20) NULL

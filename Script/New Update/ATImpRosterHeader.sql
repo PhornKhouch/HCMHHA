@@ -1,0 +1,1 @@
+ALTER  TABLE ATImpRosterHeader ADD UploadByName nvarchar(100)
