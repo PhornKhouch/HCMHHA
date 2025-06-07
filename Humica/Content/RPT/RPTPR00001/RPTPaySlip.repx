@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.2.6.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="RPTPaySlip" Margins="30, 30, 30, 30" PaperKind="A4" PageWidth="827" PageHeight="1169" Version="19.2" DataMember="HR_RPT_PaySlip" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Parameters>
+    <Item1 Ref="3" Name="InMonth" Type="#Ref-2" />
+    <Item2 Ref="5" Name="Branch" />
+    <Item3 Ref="6" Name="Division" />
+    <Item4 Ref="7" Name="Department" />
+    <Item5 Ref="8" Name="Section" />
+    <Item6 Ref="9" Name="Position" />
+    <Item7 Ref="10" Name="Level" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="11" ControlType="TopMarginBand" Name="TopMargin" HeightF="30" />
+    <Item2 Ref="12" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="30" />
+    <Item3 Ref="13" ControlType="DetailBand" Name="Detail" HeightF="0" />
+    <Item4 Ref="14" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="466.8426">
+      <GroupFields>
+        <Item1 Ref="15" FieldName="EmpCode" />
+      </GroupFields>
+      <Controls>
+        <Item1 Ref="16" ControlType="XRLabel" Name="xrLabel16" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="68,19.79" LocationFloat="180, 327.7154" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <StylePriority Ref="17" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="18" ControlType="XRLabel" Name="xrLabel15" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="68,19.75" LocationFloat="180, 228.9653" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="19" EventName="BeforePrint" PropertyName="Text" Expression="[OT]+'Hour'" />
+          </ExpressionBindings>
+          <StylePriority Ref="20" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="21" ControlType="XRLabel" Name="label5" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="68,21.75" LocationFloat="180, 175.2153" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="22" EventName="BeforePrint" PropertyName="Text" Expression="[ActWorkDay]+' Days'" />
+          </ExpressionBindings>
+          <StylePriority Ref="23" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="24" ControlType="XRLabel" Name="label6" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="68,19.75" LocationFloat="180, 347.5071" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <StylePriority Ref="25" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="26" ControlType="XRLabel" Name="label3" Multiline="true" CanGrow="false" Text="7.​ កាត់ផ្សេងៗ/Other Deduction" TextAlignment="MiddleLeft" SizeF="180,19.75006" LocationFloat="0, 347.5071" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="27" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="28" ControlType="XRLabel" Name="label4" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="111.5687,19.75006" LocationFloat="250.149, 347.5071" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom" BorderWidth="4" BorderDashStyle="Double">
+          <StylePriority Ref="29" UseFont="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="30" ControlType="XRLabel" Name="label1" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="111.5687,19.75006" LocationFloat="250.149, 327.7154" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="31" EventName="BeforePrint" PropertyName="Text" Expression="[DedAmount]" />
+          </ExpressionBindings>
+          <StylePriority Ref="32" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="33" ControlType="XRLabel" Name="label2" Multiline="true" CanGrow="false" Text="6.​ កាត់ប្រាក់ខែ/ Salary Deduction" TextAlignment="MiddleLeft" SizeF="180,19.75" LocationFloat="0, 327.7154" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="34" UseFont="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="35" ControlType="XRPictureBox" Name="xrPictureBox1" Sizing="StretchImage" SizeF="100,100" LocationFloat="660, 0">
+          <ExpressionBindings>
+            <Item1 Ref="36" EventName="BeforePrint" PropertyName="ImageUrl" Expression="[Com_Image]" />
+          </ExpressionBindings>
+        </Item9>
+        <Item10 Ref="37" ControlType="XRLabel" Name="xrLabel46" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="111.5688,24.74997" LocationFloat="250.149, 367.2571" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom" BorderWidth="4" BorderDashStyle="Double">
+          <ExpressionBindings>
+            <Item1 Ref="38" EventName="BeforePrint" PropertyName="Text" Expression="[GrossPay]" />
+          </ExpressionBindings>
+          <StylePriority Ref="39" UseFont="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="40" ControlType="XRLabel" Name="xrLabel25" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="363.2292,18" LocationFloat="396.7708, 392.0071" Padding="2,2,0,0,100" Borders="Bottom">
+          <StylePriority Ref="41" UseBorders="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="42" ControlType="XRLabel" Name="xrLabel39" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="98.02716,24.74997" LocationFloat="661.9729, 342.5072" Font="Khmer OS Battambang, 10pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom" BorderWidth="4" BorderDashStyle="Double">
+          <ExpressionBindings>
+            <Item1 Ref="43" EventName="BeforePrint" PropertyName="Text" Expression="[NetWage]" />
+          </ExpressionBindings>
+          <StylePriority Ref="44" UseFont="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="45" ControlType="XRLabel" Name="xrLabel40" Multiline="true" CanGrow="false" Text="សរុប/ Total Net Earnings" TextAlignment="MiddleLeft" SizeF="265.149,24.75006" LocationFloat="396.7709, 342.507" Font="Khmer OS Battambang, 11pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="46" UseFont="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="47" ControlType="XRLabel" Name="xrLabel13" Multiline="true" CanGrow="false" SizeF="33.54163,237.7918" LocationFloat="363.2292, 172.2153" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <StylePriority Ref="48" UseBorders="false" />
+        </Item14>
+        <Item15 Ref="49" ControlType="XRLabel" Name="xrLabel11" Multiline="true" CanGrow="false" Text="ប្រាក់ខែ/ SALARYS " TextAlignment="MiddleLeft" SizeF="156.3005,21.75" LocationFloat="0, 175.2153" Font="Khmer OS Battambang, 10pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="50" UseFont="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="51" ControlType="XRLabel" Name="xrLabel12" Multiline="true" CanGrow="false" Text="អត្ថប្រយោជន៍បន្ថែម/ Allownaces" TextAlignment="MiddleLeft" SizeF="248,24.75002" LocationFloat="0, 204.2153" Font="Khmer OS Battambang, 9pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="52" UseFont="false" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="53" ControlType="XRLabel" Name="xrLabel14" Multiline="true" CanGrow="false" Text="1.​ ប្រាក់ថែមម៉ោង/ OT" TextAlignment="MiddleLeft" SizeF="180,19.75003" LocationFloat="0, 228.9653" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="54" UseFont="false" UseTextAlignment="false" />
+        </Item17>
+        <Item18 Ref="55" ControlType="XRLabel" Name="xrLabel18" Multiline="true" CanGrow="false" Text="2.​ ប្រាក់រង្វាន់/ Bonus" TextAlignment="MiddleLeft" SizeF="250.149,19.75" LocationFloat="0, 248.7154" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="56" UseFont="false" UseTextAlignment="false" />
+        </Item18>
+        <Item19 Ref="57" ControlType="XRLabel" Name="xrLabel20" Multiline="true" CanGrow="false" Text="3.​ ប្រាក់ខែបានឡើង/ Salary Increased" TextAlignment="MiddleLeft" SizeF="250.149,19.75" LocationFloat="0, 268.4654" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="58" UseFont="false" UseTextAlignment="false" />
+        </Item19>
+        <Item20 Ref="59" ControlType="XRLabel" Name="xrLabel21" Multiline="true" CanGrow="false" Text="4.​ ប្រាក់ខែកែតម្រូវ/ Adjustment" TextAlignment="MiddleLeft" SizeF="250.149,19.75" LocationFloat="0, 288.2154" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="60" UseFont="false" UseTextAlignment="false" />
+        </Item20>
+        <Item21 Ref="61" ControlType="XRLabel" Name="xrLabel23" Multiline="true" CanGrow="false" Text="5.​ ប្រាក់ឧបត្ថម្ភ/ Allowance" TextAlignment="MiddleLeft" SizeF="250.149,19.75006" LocationFloat="0, 307.9654" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="62" UseFont="false" UseTextAlignment="false" />
+        </Item21>
+        <Item22 Ref="63" ControlType="XRLabel" Name="xrLabel24" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="363.2292,18" LocationFloat="0, 392.0071" Padding="2,2,0,0,100" Borders="Bottom">
+          <StylePriority Ref="64" UseBorders="false" UseTextAlignment="false" />
+        </Item22>
+        <Item23 Ref="65" ControlType="XRLabel" Name="xrLabel27" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="113.0802,21.75" LocationFloat="250.149, 175.2153" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="66" EventName="BeforePrint" PropertyName="Text" Expression="[BaseSalary]" />
+          </ExpressionBindings>
+          <StylePriority Ref="67" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item23>
+        <Item24 Ref="68" ControlType="XRLabel" Name="xrLabel28" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="111.5688,19.75005" LocationFloat="250.149, 228.9653" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="69" EventName="BeforePrint" PropertyName="Text" Expression="[OTAM]" />
+          </ExpressionBindings>
+          <StylePriority Ref="70" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item24>
+        <Item25 Ref="71" ControlType="XRLabel" Name="xrLabel32" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="111.5687,19.75" LocationFloat="250.1491, 248.7154" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="72" EventName="BeforePrint" PropertyName="Text" Expression="[Incentive]" />
+          </ExpressionBindings>
+          <StylePriority Ref="73" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item25>
+        <Item26 Ref="74" ControlType="XRLabel" Name="xrLabel34" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="111.5687,19.75" LocationFloat="250.1491, 268.4654" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="75" EventName="BeforePrint" PropertyName="Text" Expression="[Increased]" />
+          </ExpressionBindings>
+          <StylePriority Ref="76" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item26>
+        <Item27 Ref="77" ControlType="XRLabel" Name="xrLabel35" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="111.5687,19.75" LocationFloat="250.1491, 288.2154" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="78" EventName="BeforePrint" PropertyName="Text" Expression="[Adjusted]" />
+          </ExpressionBindings>
+          <StylePriority Ref="79" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item27>
+        <Item28 Ref="80" ControlType="XRLabel" Name="xrLabel36" TextFormatString="{0:#,0.00;(#,0.00);'-';}" Multiline="true" CanGrow="false" TextAlignment="MiddleRight" SizeF="111.5687,19.75006" LocationFloat="250.1491, 307.9654" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <StylePriority Ref="81" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item28>
+        <Item29 Ref="82" ControlType="XRLabel" Name="xrLabel6" Multiline="true" CanGrow="false" Text="INCOME" TextAlignment="MiddleCenter" SizeF="363.2292,25.97916" LocationFloat="0, 128.2361" Font="Khmer OS Battambang, 9pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Top">
+          <StylePriority Ref="83" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item29>
+        <Item30 Ref="84" ControlType="XRLabel" Name="xrLabel7" Multiline="true" CanGrow="false" Text="DEDUCTION" TextAlignment="MiddleCenter" SizeF="363.2292,25.97916" LocationFloat="396.7708, 128.2361" Font="Khmer OS Battambang, 9pt, style=Bold, charSet=0" Padding="2,2,0,0,100" Borders="Top">
+          <StylePriority Ref="85" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item30>
+        <Item31 Ref="86" ControlType="XRLabel" Name="xrLabel8" Multiline="true" CanGrow="false" SizeF="33.54163,43.97916" LocationFloat="363.2292, 128.2361" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="87" UseBorders="false" />
+        </Item31>
+        <Item32 Ref="88" ControlType="XRLabel" Name="xrLabel9" Multiline="true" CanGrow="false" Text="USD" TextAlignment="MiddleRight" SizeF="363.2292,18" LocationFloat="0, 154.2153" Font="Arial, 9pt" Padding="2,2,0,0,100" Borders="Bottom">
+          <StylePriority Ref="89" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item32>
+        <Item33 Ref="90" ControlType="XRLabel" Name="xrLabel10" Multiline="true" CanGrow="false" Text="USD" TextAlignment="MiddleRight" SizeF="363.2292,18" LocationFloat="396.7708, 154.2153" Font="Arial, 9pt" Padding="2,2,0,0,100" Borders="Bottom">
+          <StylePriority Ref="91" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item33>
+        <Item34 Ref="92" ControlType="XRLabel" Name="xrLabel1" Multiline="true" Text="សេចក្តីលំអិត អំពីប្រាក់ខែ/ SALARYS ADVICE" TextAlignment="MiddleLeft" SizeF="363.2292,26.75" LocationFloat="0, 0" Font="Khmer OS Battambang, 12pt, style=Bold, Underline, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="93" UseFont="false" UseTextAlignment="false" />
+        </Item34>
+        <Item35 Ref="94" ControlType="XRLabel" Name="xrLabel2" Multiline="true" CanGrow="false" Text="ខែ/ MONTH:" TextAlignment="MiddleLeft" SizeF="179.0278,19.75" LocationFloat="0, 39.58333" Font="Khmer OS Battambang, 9pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="95" UseFont="false" UseTextAlignment="false" />
+        </Item35>
+        <Item36 Ref="96" ControlType="XRLabel" Name="xrLabel3" Multiline="true" CanGrow="false" Text="តំណែង/ POSITION:" TextAlignment="MiddleLeft" SizeF="179.0278,19.75" LocationFloat="0, 59.33333" Font="Khmer OS Battambang, 9pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="97" UseFont="false" UseTextAlignment="false" />
+        </Item36>
+        <Item37 Ref="98" ControlType="XRLabel" Name="xrLabel4" Multiline="true" CanGrow="false" Text="ឈ្មោះ/ STAFF NAME:" TextAlignment="MiddleLeft" SizeF="179.0278,19.74999" LocationFloat="0, 79.08333" Font="Khmer OS Battambang, 9pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="99" UseFont="false" UseTextAlignment="false" />
+        </Item37>
+        <Item38 Ref="100" ControlType="XRLabel" Name="xrLabel5" Multiline="true" CanGrow="false" Text="លេខរៀង/ STAFF NUMBER:" TextAlignment="MiddleLeft" SizeF="179.0278,19.74998" LocationFloat="0, 98.83332" Font="Khmer OS Battambang, 9pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="101" UseFont="false" UseTextAlignment="false" />
+        </Item38>
+        <Item39 Ref="102" ControlType="XRLabel" Name="xrLabel42" TextFormatString="{0:MMM-yyyy}" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="182.69,19.75" LocationFloat="179.0278, 39.58333" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="103" EventName="BeforePrint" PropertyName="Text" Expression="?InMonth" />
+          </ExpressionBindings>
+          <StylePriority Ref="104" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item39>
+        <Item40 Ref="105" ControlType="XRLabel" Name="xrLabel43" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="182.69,19.75" LocationFloat="179.0278, 59.33333" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="106" EventName="BeforePrint" PropertyName="Text" Expression="[POSITION]" />
+          </ExpressionBindings>
+          <StylePriority Ref="107" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item40>
+        <Item41 Ref="108" ControlType="XRLabel" Name="xrLabel44" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="182.69,19.74999" LocationFloat="179.0278, 79.08333" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="109" EventName="BeforePrint" PropertyName="Text" Expression="[EmpName]" />
+          </ExpressionBindings>
+          <StylePriority Ref="110" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item41>
+        <Item42 Ref="111" ControlType="XRLabel" Name="xrLabel45" Multiline="true" CanGrow="false" TextAlignment="MiddleLeft" SizeF="182.6899,19.74998" LocationFloat="179.0279, 98.83332" Font="Khmer OS Battambang, 9pt, charSet=0" Padding="2,2,0,0,100" Borders="Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="112" EventName="BeforePrint" PropertyName="Text" Expression="[EmpCode]" />
+          </ExpressionBindings>
+          <StylePriority Ref="113" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item42>
+        <Item43 Ref="114" ControlType="XRLabel" Name="xrLabel41" Multiline="true" CanGrow="false" Text="Received By:&#xD;&#xA;Date" TextAlignment="TopJustify" SizeF="199.9791,36.86047" LocationFloat="396.7709, 410.0071" Font="Arial, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="115" UseFont="false" UseTextAlignment="false" />
+        </Item43>
+      </Controls>
+    </Item4>
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v19.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkRCQnVzaW5lc3NQcm9jZXNzIChTdW5QZW9wbGUpIiBGcm9tQXBwQ29uZmlnPSJ0cnVlIiAvPjxRdWVyeSBUeXBlPSJTdG9yZWRQcm9jUXVlcnkiIE5hbWU9IkhSX1JQVF9QYXlTbGlwIj48UGFyYW1ldGVyIE5hbWU9IkBCcmFuY2giIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP0JyYW5jaCk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBEaXZpc2lvbiIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKSg/RGl2aXNpb24pPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJARGVwYXJ0bWVudCIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKSg/RGVwYXJ0bWVudCk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBTZWN0aW9uIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcpKD9TZWN0aW9uKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQFBvc2l0aW9uIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcpKD9Qb3NpdGlvbik8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBMZXZlbCIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKSg/TGV2ZWwpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJASW5Nb250aCIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uRGF0ZVRpbWUpKD9Jbk1vbnRoKTwvUGFyYW1ldGVyPjxQcm9jTmFtZT5IUl9SUFRfUGF5U2xpcDwvUHJvY05hbWU+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UxIj48VmlldyBOYW1lPSJIUl9SUFRfUGF5U2xpcCI+PEZpZWxkIE5hbWU9IkVtcENvZGUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQmFua0JyYW5jaCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJCYW5rQWNjIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Ikdyb3NzUGF5IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJOZXRXYWdlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXBhcnRtZW50IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkVtcE5hbWUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQVNCcmFuY2hfREVTQyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJQT1NJVElPTiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJPVEFNIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTYWxhcnkiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlRBWEFNIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZWRBbW91bnQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlRFUk1TVEFUVVMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUGFya2luZ01lYWxzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJBbGx3UGhvbmUiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlRyYW5zcG9ydCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VuaW9yaXR5IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNlQ2hhcmdlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJBZGp1c3RlZCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT1QiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkJhc2VTYWxhcnkiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlYXNlZCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jZW50aXZlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21fSW1hZ2UiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29tcEVORyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBY3RXb3JrRGF5IiBUeXBlPSJEZWNpbWFsIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v19.2" Ref="2" Content="System.DateTime" Type="System.Type" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

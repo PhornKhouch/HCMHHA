@@ -1,0 +1,148 @@
+﻿@model Humica.Logic.PR.PRGenerate_Salary
+<script type="text/javascript">
+    var ss;
+    var selectedIDs = "";
+    $(document).ready(function () {
+        $('#_btnGenerate').click(function () {
+            if (selectedIDs.length > 0) {
+            var favDialog = document.getElementById('favDialog');
+            favDialog.showModal();
+            StartTimer();
+            $.ajax({
+                type: "post",
+                url: _baseUrl + '/PR/PRM/GenerateFirstPay/Generate',
+                data: {},
+                success: function (data) {
+
+                },
+                fail: function () {
+                    alert("error ....");
+                },
+                error: function () {
+
+                }
+            });
+            }
+            else {
+                alert("No data selected");
+            }
+        });
+        $('#_btnDeleteAction').click(function () {
+            ss = 4;
+            ConfirmMessage("@Humica.EF.Models.SY.SYMessages.getMessage("DELETE_C", Humica.EF.MD.SYSession.getSessionUser().Lang)");
+        });
+    });
+     function _clickConfirm(s, e) {
+        if (s.GetText() == "@Humica.EF.Models.SY.SYConstant.OK") {
+            if (ss == 4) {
+                window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Delete?PayPeriodId=" + txtPayPeriod.GetValue() ;
+            }
+        }
+    }
+    function convert(str) {
+        var date = new Date(str),
+            mnth = ("0" + (date.getMonth() + 1)).slice(-2),
+            day = ("0" + date.getDate()).slice(-2),
+            Minutes = ("0" + date.getMinutes()).slice(-2);
+        return [date.getFullYear(), mnth, day].join("-");
+    }
+    function OnSelectionChanged(s, e) {
+        s.GetSelectedFieldValues("EmpCode", GetSelectedFieldValuesCallback);
+    }
+    function GetSelectedFieldValuesCallback(values) {
+        selectedIDs = "";
+        ssFrom = "";
+        for (var index = 0; index < values.length; index++) {
+            selectedIDs += values[index] + ";";
+            ssFrom = selectedIDs;
+        }
+        if (selectedIDs.length > 0) {
+            selectedIDs = selectedIDs.substring(0, selectedIDs.length - 1);
+        }
+        $.ajax({
+            type: 'post',
+            url: _baseUrl + '/PR/PRM/GenerateFirstPay/getEmpCode',
+            data: { 'EmpCode': selectedIDs, 'Action': 'Index' },
+            success: function (data) {
+                if (data == "OK") {
+
+                }
+                else {
+                    AlertMessage(data);
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                AlertMessage(XMLHttpRequest.responseText);
+            }
+        });
+       
+    }
+    var interval = null;
+    function StartTimer() {
+        if (interval == null) {
+            var counter = 0;
+            interval = setInterval(function () {
+                counter += 1;
+                // Do your task.
+                $.ajax({
+                    type: "post",
+                    url: _baseUrl + '/PR/PRM/GenerateFirstPay/ShowProcess',
+                    data: {},
+                    success: function (data) {
+                        if (data.MS == "OK") {
+                            progressBar1.SetValue(data.Percen);
+                        }
+                        else {
+                            progressBar1.SetValue(data.Percen);
+                            favDialog.close();
+                            StopTimer();
+                        }
+                    },
+                    fail: function () {
+                       // alert("error ....");
+                    },
+                    error: function () {
+                        alert("error ....");
+                    }
+                });
+
+            }, 1000);
+        }
+    }
+
+    function StopTimer() {
+        clearInterval(interval);
+        interval = null;
+         window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL].ToString()";
+    }
+</script>
+<link rel="stylesheet" href="~/Content/styleLoanding.css">
+
+<dialog id="favDialog" style="border: none; background-color: transparent; height: 75px; ">
+    @*style="border: none; z-index: 1; width: 68%; background: black">*@
+
+    <div id="floatingBarsG">
+        <div class="blockG" id="rotateG_01"></div>
+        <div class="blockG" id="rotateG_02"></div>
+        <div class="blockG" id="rotateG_03"></div>
+        <div class="blockG" id="rotateG_04"></div>
+        <div class="blockG" id="rotateG_05"></div>
+        <div class="blockG" id="rotateG_06"></div>
+        <div class="blockG" id="rotateG_07"></div>
+        <div class="blockG" id="rotateG_08"></div>
+    </div>
+    
+            @Html.DevExpress().ProgressBar(settings =>
+            {
+                settings.Name = "progressBar1";
+                settings.Properties.Minimum = 0;
+                settings.Properties.ShowPosition = true;
+                settings.Width = 300;
+            }).GetHtml()
+    
+</dialog>
+
+@Html.Partial("FTFilterEmployeeGen", Model)
+
+
+@Html.Partial("GridItems", Model.ListEmployeeGen)

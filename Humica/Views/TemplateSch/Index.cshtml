@@ -1,0 +1,59 @@
+﻿<script type="text/javascript">
+    var ss;
+    var selectedIDs = "";
+    $(document).ready(function () {
+
+
+        $('#_btnImageView').hide(function () {
+        });
+        $('#_btnImport').click(function () {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Import";
+        })
+        $("#_btnDeleteAction").hide();
+        $('#_btnImport').css({"transform":"translateX(-150px)"})
+    });
+
+    function DbRowClick(s, e) {
+        ss = 1;
+        s.GetRowValues(s.GetFocusedRowIndex(), 'Code;', OnGetRowValues);
+    }
+</script>
+
+@model Humica.Logic.Att.ATEmpSchObject
+
+@Html.Partial("FTFilter", Model)
+
+@*@Html.Partial(Humica.Models.SY.SYListConfuration.ListDefaultView, Model.LIstEmplSch)*@
+
+@{
+    if (Model.ListImpRoster.Count > 0)
+    {
+        Html.DevExpress().PageControl(
+           settings =>
+           {
+               settings.Name = "pcScrollingMaterial1";
+               settings.Width = Unit.Percentage(100);
+
+               settings.EnableTabScrolling = true;
+               settings.TabAlign = TabAlign.Justify;
+
+               settings.Styles.Tab.CssClass = "scrolling_Tab";
+               settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel((List<Humica.EF.MD.CFForm>
+            )ViewData[Humica.EF.SYSConstant.LIST_CONF_FORM], "List")).SetContent(() =>
+            {
+                Html.RenderPartial(Humica.Models.SY.SYListConfuration.ListDefaultView, Model.LIstEmplSch);
+            });
+               settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel((List<Humica.EF.MD.CFForm>
+                   )ViewData[Humica.EF.SYSConstant.LIST_CONF_FORM], "WaitingList")).SetContent(() =>
+                   {
+                       Html.RenderPartial("PartialProcess", Model);
+                   });
+
+
+           }).Render();
+    }
+    else
+    {
+        Html.RenderPartial(Humica.Models.SY.SYListConfuration.ListDefaultView, Model.LIstEmplSch);
+    }
+}

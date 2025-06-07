@@ -1,0 +1,38 @@
+﻿@model Humica.Core.FT.FTFilterEmployee
+
+@Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "FTGernalAccounting";
+    settings.AlignItemCaptionsInAllGroups = true;
+
+    settings.Items.AddGroupItem(m => Model, g =>
+    {
+        g.ColCount = 2;
+        g.GroupBoxDecoration = GroupBoxDecoration.None;
+        g.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Left;
+
+
+        g.Items.Add(m =>
+        {
+            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("InYear");
+        })
+      .SetNestedContent(() =>
+    {
+        Html.DevExpress().DateEditFor(i => Model.InMonth, s =>
+        {
+            s.ShowModelErrors = true;
+            s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+            s.Properties.ValidationSettings.SetFocusOnError = true;
+            s.Properties.ValidationSettings.ErrorText = "*";
+            s.Properties.PickerType = DatePickerType.Years;
+            s.Properties.DisplayFormatString = "yyyy";
+            s.Properties.EditFormatString = "yyyy";
+            s.Properties.NullText = "Select Year";
+            s.Properties.UseMaskBehavior = true;
+        }).Render();
+    });
+
+
+    });
+
+}).Bind(Model).GetHtml()

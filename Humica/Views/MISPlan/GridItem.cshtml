@@ -1,0 +1,146 @@
+﻿
+@{var grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "GridItem";
+        settings.KeyFieldName = "LineItem";
+
+        settings.Width = Unit.Percentage(100);
+        settings.SettingsEditing.Mode = GridViewEditingMode.Inline;
+
+        settings.CallbackRouteValues = new { Controller = "MISPlan", Action = "GridItem" };
+
+        settings.SettingsEditing.AddNewRowRouteValues = new { Controller = "MISPlan", Action = "CreatePItem" };
+        settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "MISPlan", Action = "EditPItem" };
+        settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "MISPlan", Action = "DeletePItem" };
+
+        settings.SettingsBehavior.AllowSort = false;
+
+        settings.CommandColumn.Visible = true;
+        settings.CommandColumn.ShowDeleteButton = true;
+        settings.SettingsContextMenu.Enabled = true;
+        settings.SettingsContextMenu.RowMenuItemVisibility.DeleteRow = false;
+        settings.SettingsContextMenu.RowMenuItemVisibility.EditRow = false;
+        settings.SettingsContextMenu.RowMenuItemVisibility.NewRow = false;
+        settings.Settings.ShowHeaderFilterButton = true;
+        settings.SettingsPopup.HeaderFilter.Height = 200;
+
+        settings.CommandColumn.ShowNewButtonInHeader = true;
+        settings.CommandColumn.ShowCancelButton = true;
+        settings.CommandColumn.ShowEditButton = true;
+        settings.SettingsBehavior.AllowFocusedRow = true;
+        settings.SettingsBehavior.ConfirmDelete = true;
+        settings.CommandColumn.FixedStyle = GridViewColumnFixedStyle.Left;
+
+        settings.SettingsPager.PageSizeItemSettings.Visible = true;
+        settings.Columns.Add(column =>
+        {
+            column.Width = 100;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("LineItem");
+            column.FieldName = "LineItem";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel(ViewData[Humica.EF.SYSConstant.SCREEN_ID].ToString(), "Type");
+            column.FieldName = "Type";
+            column.Width = 150;
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            var textProperties = column.PropertiesEdit as ComboBoxProperties;
+            textProperties.DataSource = ViewData["MissType_SELECT"];
+            textProperties.ValueField = "Code";
+            textProperties.TextField = "Description";
+            textProperties.TextFormatString = "{1}";
+            textProperties.DropDownStyle = DropDownStyle.DropDownList;
+            textProperties.Columns.Add("Code", Humica.EF.Models.SY.SYSettings.getLabel("Code"), 70);
+            textProperties.Columns.Add("Description", Humica.EF.Models.SY.SYSettings.getLabel("Description"), 250);
+            textProperties.ValueType = typeof(string);
+            textProperties.ClientSideEvents.SelectedIndexChanged = "SelectChange";
+        });
+
+        settings.Columns.Add(column =>
+        {
+            column.Width = 250;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Description");
+            column.FieldName = "Code";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.EditorProperties().ComboBox(cboProperties =>
+            {
+                cboProperties.Width = Unit.Percentage(100);
+                cboProperties.CallbackRouteValues = new { Controller = "MISPlan", Action = "MissSetupItem" };
+                cboProperties.ValueField = "Description";
+                cboProperties.TextField = "Description";
+                cboProperties.TextFormatString = "{1}";
+                cboProperties.Columns.Add("Code", Humica.EF.Models.SY.SYSettings.getLabel("Code"));
+                cboProperties.Columns.Add("Description", Humica.EF.Models.SY.SYSettings.getLabel("Description"));
+                cboProperties.ClientInstanceName = "txtKPIElement";
+                cboProperties.BindList(Humica.Logic.Mission.HRMissPlanObject.GetAllMissItem());
+            });
+
+        });
+        settings.Columns.Add(column =>
+        {
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Amount");
+            column.Width = 90;
+            column.FieldName = "Amount";
+            column.ColumnType = MVCxGridViewColumnType.SpinEdit;
+            var spinEditProperties = column.PropertiesEdit as SpinEditProperties;
+            spinEditProperties.DisplayFormatString = "N2";
+            spinEditProperties.NumberType = SpinEditNumberType.Float;
+            spinEditProperties.Width = Unit.Percentage(100);
+            spinEditProperties.DisplayFormatInEditMode = true;
+            spinEditProperties.MinValue = 0;
+            spinEditProperties.MaxValue = 1000000;
+            spinEditProperties.Style.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Right;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Remark";
+            column.Width = 150;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Remark");
+            column.ColumnType = MVCxGridViewColumnType.TextBox;
+        });
+        settings.SettingsSearchPanel.Visible = false;
+        settings.SettingsBehavior.ColumnResizeMode = ColumnResizeMode.Control;
+        settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Visible;
+        settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible;
+        settings.Settings.VerticalScrollableHeight = Humica.EF.MD.SYSession.PageHieigh;
+        settings.SettingsBehavior.ConfirmDelete = true;
+        settings.SettingsPager.PageSize = 50;
+        settings.SettingsBehavior.AllowFocusedRow = true;
+        settings.ClientSideEvents.EndCallback = "EndCallBack";
+        settings.CustomJSProperties = (sender, e) =>
+        {
+            e.Properties["cpVisibleRowCount"] = (sender as MVCxGridView).VisibleRowCount;
+        };
+        settings.CellEditorInitialize = (sender, e) =>
+        {
+            MVCxGridView grid_ = sender as MVCxGridView;
+
+            ASPxEdit editor = (ASPxEdit)e.Editor;
+            editor.ValidationSettings.Display = Display.Dynamic;
+            editor.ReadOnly = false;
+            if (e.Column.FieldName == "LineItem")
+            {
+                if (e.KeyValue == null)
+                {
+                    editor.Value = -1;
+                }
+            }
+            if (e.Column.FieldName == "Amount")
+            {
+                if (e.KeyValue == null)
+                {
+                    editor.Value = 0;
+                }
+            }
+        };
+    });
+
+    if (ViewData["EditError"] != null)
+    {
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+
+@grid.Bind(Model).GetHtml()
+
+

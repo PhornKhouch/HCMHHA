@@ -1,0 +1,7 @@
+@{
+    Layout = "~/Views/Shared/_LoadingLayout.cshtml";
+    @Html.Partial("PopTheLoading")
+}
+
+<iframe id="_main_loading" src="@Humica.EF.Models.SY.SYSettings.getSetting("DASHBOARD").SettinValue" style="width: 100%; height: 93vh; border: none">
+</iframe>

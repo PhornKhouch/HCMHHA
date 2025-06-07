@@ -1,0 +1,167 @@
+﻿@model Humica.EF.Models.SY.SYPermissionObject
+
+@{
+    var treeList = Html.DevExpress().TreeList(
+        settings =>
+        {
+
+
+            settings.Name = "treeList";
+            settings.CallbackRouteValues = new { Controller = "UserRole", Action = "TreePermissionEdit" };
+
+            settings.AutoGenerateColumns = false;
+            settings.Width = Unit.Percentage(100);
+
+            settings.KeyFieldName = "MenuId";
+            settings.ParentFieldName = "Segment";
+            settings.Columns.Add(column =>
+            {
+                column.FieldName = "Name";
+                column.PropertiesEdit.EncodeHtml = false;
+            });
+
+
+
+            settings.SettingsCookies.Enabled = false;
+            //settings.SettingsCookies.StoreExpandedNodes = true;
+
+
+            settings.CommandColumn.Visible = false;
+
+
+
+            settings.SettingsEditing.ConfirmDelete = true;
+
+            settings.Settings.GridLines = System.Web.UI.WebControls.GridLines.Both;
+            settings.SettingsBehavior.ExpandCollapseAction = TreeListExpandCollapseAction.NodeDblClick;
+
+            settings.SettingsSelection.AllowSelectAll = true;
+            settings.SettingsSelection.Enabled = true;
+            settings.SettingsSelection.Recursive = false;
+
+            settings.ClientSideEvents.SelectionChanged = "OnSelectionChanged";
+            settings.ClientSideEvents.BeginCallback = "OnBeginCallback";
+
+            //Module  
+            foreach(var read in Model.ListMenu)
+            {
+                if(read.Segment==1)
+                {
+                    settings.Nodes.Add(node =>
+                    {
+                        node.KeyObject = "S1:"+read.ID;
+
+                        if(Model.ListRoleMenu.Where(w=>w.MenuId==read.ID && w.Segment==1).ToList().Count>0)
+                        {
+                            node.Selected = true;
+                        }
+
+                        node["Name"] = read.Text;
+                        node.Expanded = true;
+                        node.AllowSelect = true;
+                        //Sub Module            
+                        foreach (var child in Model.ListMenu)
+                        {
+                            if (child.Parent == read.ID && child.Segment == 2)
+                            {
+                                node.ChildNodes.Add(childn =>
+                                {
+                                    childn.KeyObject = "S2:"+child.ID;
+                                    childn["Name"] = child.Text;
+                                    childn.Expanded = true;
+
+                                    childn.AllowSelect = true;
+
+                                    if (Model.ListRoleMenu.Where(w => w.MenuId == child.ID && w.Segment == 2).ToList().Count > 0)
+                                    {
+                                        childn.Selected = true;
+                                    }
+
+                                    foreach (var grandchild in Model.ListMenu)
+                                    {
+                                        if (grandchild.Parent == child.ID && grandchild.Segment == 3)
+                                        {
+                                            childn.ChildNodes.Add(grandc =>
+                                            {
+                                                grandc.KeyObject = "S3:" + grandchild.ID;
+                                                grandc["Name"] = grandchild.Text;
+                                                grandc.Expanded = true;
+                                                grandc.AllowSelect = true;
+
+                                                if (Model.ListRoleMenu.Where(w => w.MenuId == grandchild.ID && w.Segment == 3).ToList().Count > 0)
+                                                {
+                                                    grandc.Selected = true;
+                                                }
+
+                                                //Feature
+                                                foreach (var grandchildS in Model.ListMenuItem)
+                                                {
+                                                    if (grandchildS.MenuId == grandchild.ID)
+                                                    {
+                                                        grandc.ChildNodes.Add(grandcS =>
+                                                        {
+                                                            grandcS.KeyObject = "S4:" + grandchildS.ID;
+                                                            grandcS["Name"] = grandchildS.Text;
+                                                            grandcS.Expanded = true;
+                                                            grandcS.AllowSelect = true;
+
+                                                            if (Model.ListRoleMenu.Where(w => w.MenuId == grandchildS.ID && w.Segment == 4).ToList().Count > 0)
+                                                            {
+                                                                grandcS.Selected = true;
+                                                            }
+
+                                                            //Action Name
+                                                            foreach (var acName in Model.ListActionName)
+                                                            {
+                                                                if (grandchildS.ScreenId == acName.ScreenID)
+                                                                {
+                                                                    grandcS.ChildNodes.Add(acNode =>
+                                                                    {
+                                                                        acNode.KeyObject = read.ID + ":" + child.ID + ":" + grandchild.ID + ":" + grandchildS.ID + ":" + acName.ScreenID + ":" + acName.ActionTemplateID + ":" + acName.ActionName;
+                                                                        acNode["Name"] = acName.ActionName;
+                                                                        acNode.Expanded = true;
+                                                                        acNode.AllowSelect = true;
+
+                                                                        if (Model.ListRoleItem.Where(w => w.ScreenId == acName.ScreenID && w.ActionName == acName.ActionName && w.ActionTemplateID == acName.ActionTemplateID).ToList().Count > 0)
+                                                                        {
+                                                                            acNode.Selected = true;
+                                                                        }
+
+                                                                    });
+
+                                                                }
+                                                            }
+                                                        });
+                                                    }//---
+                                                }//---
+
+
+                                            });
+                                        }//---
+                                    }//---
+
+
+
+                                });
+                            }
+                        }
+                    });
+                }
+            }
+
+
+
+
+            settings.Settings.ShowColumnHeaders = false;
+
+
+
+        }
+    );
+
+    if (ViewData["EditNodeError"] != null)
+    {
+        treeList.SetEditErrorText((string)ViewData["EditNodeError"]);
+    }
+}
+@treeList.GetHtml()

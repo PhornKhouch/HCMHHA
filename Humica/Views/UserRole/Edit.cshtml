@@ -1,0 +1,131 @@
+﻿
+<script type="text/javascript">
+    var ss;    
+    var selectedIDs;
+    $(document).ready(function () {
+        $('#_btnBackAction').click(function () {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]";
+        });
+
+
+        $('#_btnSaveActionGrid').click(function () {
+            $('form').submit();
+        });
+
+    });
+
+    function OnBeginCallback(s, e) {
+        //Pass all selected keys to GridView callback action
+        e.customArgs["selectedIDs"] = selectedIDs;
+    }
+
+    function OnSelectionChanged(s, e) {
+        var key = s.GetVisibleSelectedNodeKeys();
+        selectedIDs = key.join(';');
+        NodeSelect.SetValue(selectedIDs);
+        //alert(selectedIDs);
+        //s.GetSelectedFieldValues("Name", GetSelectedFieldValuesCallback);
+
+       
+    }
+    function GetSelectedFieldValuesCallback(values) {
+        //Capture all selected keys
+        //selectedIDs = values.join(':');
+        //alert(selectedIDs);
+    }
+   
+</script>
+
+
+@model Humica.EF.Models.SY.SYPermissionObject
+
+
+@Html.DevExpress().FormLayout(settings =>
+{
+
+
+    settings.Name = "ImportBank";
+    settings.AlignItemCaptionsInAllGroups = true;
+
+
+
+    settings.Items.AddGroupItem(m => Model, g =>
+    {
+        g.ColCount = 1;
+        g.GroupBoxDecoration = GroupBoxDecoration.None;
+        g.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+
+        //g.Items
+        //    .Add(m =>
+        //    {
+        //        m.Caption = "User Type";
+
+        //    })
+        //    .SetNestedContent(() =>
+        //    {
+        //        Html.DevExpress().ComboBoxFor(i => i.HeaderRole.UserType, s =>
+        //        {
+        //            s.ReadOnly = true;
+        //            s.ShowModelErrors = true;
+        //            s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+        //            s.Properties.ValidationSettings.SetFocusOnError = true;
+        //            s.Properties.ValidationSettings.ErrorText = "*";
+        //            s.Properties.TextField = "SelectText";
+        //            s.Properties.ValueField = "SelectValue";
+        //            s.Properties.ValueType = typeof(string);
+        //        }).BindList(ViewData["USER_TYPE"]).Render();
+        //    });
+
+
+        g.Items
+            .Add(m =>
+            {
+                m.Caption = "Description";
+
+            })
+            .SetNestedContent(() =>
+            {
+                Html.DevExpress().TextBoxFor(i => i.HeaderRole.Description, s =>
+                {
+                    s.ShowModelErrors = true;
+                    s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+                    s.Properties.ValidationSettings.SetFocusOnError = true;
+
+                }).Render();
+            });
+
+
+        g.Items
+            .Add(m =>
+            {
+                m.Caption = "";
+
+            })
+            .SetNestedContent(() =>
+            {
+                Html.DevExpress().TextBox(s =>
+                {
+                    s.ClientVisible = false;
+                    s.ShowModelErrors = true;
+                    s.Name = "NodeSelect";
+                    s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+                    s.Properties.ValidationSettings.SetFocusOnError = true;
+
+                }).Render();
+            });
+
+    });
+
+
+
+}).GetHtml()
+
+
+<div id="tree_permission">
+    @Html.Partial("TreePermissionEdit", Model)
+</div>
+
+
+
+
+

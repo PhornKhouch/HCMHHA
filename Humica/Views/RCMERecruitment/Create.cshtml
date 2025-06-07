@@ -1,0 +1,150 @@
+﻿@model Humica.Logic.RCM.RCMERecruitObject
+
+<script type="text/javascript">
+     $(document).ready(function () {
+         $('#_btnBackAction').click(function () {
+             window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]";
+         });
+         $('#_btnSaveActionGrid').click(function () {
+             $("form").submit();
+         });
+     });
+</script>
+
+@Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "Create";
+    settings.AlignItemCaptionsInAllGroups = true;
+    settings.Width = Unit.Percentage(80);
+    settings.Items.AddGroupItem(m => Model.Header, g =>
+    {
+        g.ColCount = 3;
+        g.Caption = "Job Ads Design";
+        g.GroupBoxDecoration = GroupBoxDecoration.Box;
+        g.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Left;
+        g.Items.Add(m =>
+        {
+            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Hiring Position *");
+        })
+        .SetNestedContent(() =>
+        {
+            Html.DevExpress().ComboBoxFor(i => i.Header.HirePosition, s =>
+            {
+                s.ShowModelErrors = true;
+                s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+                s.Properties.ValidationSettings.SetFocusOnError = true;
+                s.Properties.ValidationSettings.ErrorText = "*";
+                s.Properties.TextFormatString = "{1}";
+                s.Properties.ValueField = "Code";
+                s.Properties.TextField = "Description";
+                s.Properties.Columns.Add("Code", Humica.EF.Models.SY.SYSettings.getLabel("Code"), 70);
+                s.Properties.Columns.Add("Description", Humica.EF.Models.SY.SYSettings.getLabel("Description"), 200);
+                s.Properties.Columns.Add("SecDescription", Humica.EF.Models.SY.SYSettings.getLabel("Second Description"), 120);
+                s.Properties.NullText = Humica.EF.Models.SY.SYSettings.getLabel("_SELECT");
+            }).BindList(ViewData["POSITION_SELECT"]).Render();
+        });
+        g.Items.Add(m =>
+        {
+            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Status");
+            m.ColumnSpan = 2;
+        })
+        .SetNestedContent(() =>
+        {
+            Html.DevExpress().TextBoxFor(i => i.Header.Status, s =>
+            {
+                s.ReadOnly = true;
+                s.Properties.ClientInstanceName = "txtStatus";
+                s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+                s.Properties.ValidationSettings.SetFocusOnError = true;
+                s.Properties.ValidationSettings.ErrorText = "*";
+            }).Render();
+        });
+        g.Items.Add(m =>
+        {
+            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Poster Number * ");
+        })
+        .SetNestedContent(() =>
+        {
+            Html.DevExpress().SpinEditFor(i => i.Header.PosterNo, s =>
+            {
+                s.Properties.ClientInstanceName = "spPosterNo";
+                s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+                s.Properties.ValidationSettings.SetFocusOnError = true;
+                s.Properties.ValidationSettings.ErrorText = "*";
+                s.ControlStyle.HorizontalAlign = HorizontalAlign.Right;
+            }).Render();
+        });
+        g.Items.Add(m =>
+        {
+            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Location");
+        })
+        .SetNestedContent(() =>
+        {
+            Html.DevExpress().TextBoxFor(i => i.Header.Location, s =>
+            {
+                s.Properties.ClientInstanceName = "txtLocation";
+                s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+                s.Properties.ValidationSettings.SetFocusOnError = true;
+                s.Properties.ValidationSettings.ErrorText = "*";
+            }).Render();
+        });
+        g.Items.Add(m =>
+        {
+            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Contact Information");
+            m.ColSpan = 3;
+        })
+        .SetNestedContent(() =>
+        {
+
+            Html.DevExpress().MemoFor(i => i.Header.ContactInfo, s =>
+            {
+                s.Height = 75;
+                s.Width = Unit.Percentage(88);
+                s.Properties.ClientInstanceName = "txtContactInfo";
+                s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+                s.Properties.ValidationSettings.SetFocusOnError = true;
+                s.Properties.ValidationSettings.ErrorText = "*";
+            }).Render();
+        });
+
+        g.Items.Add(m =>
+        {
+            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Facekbook page");
+        })
+        .SetNestedContent(() =>
+        {
+            Html.DevExpress().ComboBoxFor(i => i.Header.MediaType, s =>
+            {
+                s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+                s.Properties.ValidationSettings.SetFocusOnError = true;
+                s.Properties.ValidationSettings.ErrorText = "*";
+                s.Properties.ValidationSettings.Display = Display.None;
+                s.Properties.TextFormatString = "{1}";
+                s.Properties.ClientInstanceName = "MediaType";
+                s.Properties.ValueField = "ID";
+                s.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                s.Properties.Columns.Add("ID", Humica.EF.Models.SY.SYSettings.getLabel("ID"));
+                s.Properties.Columns.Add("Description", Humica.EF.Models.SY.SYSettings.getLabel("Description"));
+                s.Properties.NullText = Humica.EF.Models.SY.SYSettings.getLabel("_SELECT");
+            }).BindList(ViewData["TOKEN_SELECT"]).Render();
+        });
+
+    }); 
+}).GetHtml()
+
+@Html.DevExpress().PageControl(settings =>
+{
+    settings.Name = "pcScrollingMaterial";
+    settings.Width = Unit.Percentage(100);
+    settings.EnableTabScrolling = true;
+    settings.TabAlign = TabAlign.Justify;
+    settings.Styles.Tab.CssClass = "scrolling_Tab";
+    settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("Job Posting Process")).SetContent(() =>
+    {
+        @Html.RenderPartial("JobPostingProcess", Model);
+    });
+    //settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("Advertising Place")).SetContent(() =>
+    //{
+    //    @Html.RenderPartial("GridAdvertise", Model.ListAdvertise  );
+    //});
+}).GetHtml()

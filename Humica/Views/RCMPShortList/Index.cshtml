@@ -1,0 +1,102 @@
+﻿
+<script type="text/javascript">
+    var ss;
+    var selectedIDs = "";
+
+    $(document).ready(function () {
+
+    });
+    function _clickMenuAction(s, e) {
+        if (e.item.name == "_mnPass") {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Pass?ApplicantIDs="+selectedIDs;
+            //ss = 1;
+            //Gridview.GetRowValues(Gridview.GetFocusedRowIndex(), 'ApplicantID;', OnGetRowValues);
+        }
+        if (e.item.name == "_mnKeep") {
+            //ss = 2;
+            //Gridview.GetRowValues(Gridview.GetFocusedRowIndex(), 'ApplicantID;', OnGetRowValues);
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Keep?ApplicantIDs=" + selectedIDs;
+        }
+        if (e.item.name == "_mnFail") {
+            //ss = 3;
+            //Gridview.GetRowValues(Gridview.GetFocusedRowIndex(), 'ApplicantID;', OnGetRowValues);
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Fail?ApplicantIDs=" + selectedIDs;
+        }
+        if (e.item.name == "_mnReject") {
+            //ss = 4;
+            //Gridview.GetRowValues(Gridview.GetFocusedRowIndex(), 'ApplicantID;', OnGetRowValues);
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Reject?ApplicantIDs=" + selectedIDs;
+        }
+    }
+    function OnGetRowValues(values) {
+       // selectedIDs = values[0];
+
+        if (ss == 1) {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Pass?ApplicantID=" + values[0];
+        }
+        if (ss == 2) {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Keep?ApplicantID=" + values[0];
+        }
+        if (ss == 3) {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Fail?ApplicantID="+ values[0];
+        }
+        if (ss == 4) {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Reject?ApplicantID=" + values[0];
+        }
+    }
+    function Selected(s, e) {
+        cboApplyPosition.SetValue(s.GetSelectedItem().GetColumnText(1));
+    }
+    function chk_SelectionChanged(s,e) {
+        s.GetSelectedFieldValues("ApplicantID", GetSelectedFieldValuesCallback);
+    }
+    function GetSelectedFieldValuesCallback(values) {
+        selectedIDs = values.join(';');
+    }
+</script>
+
+@model Humica.Logic.RCM.RCMPShortListObject
+
+@Html.Partial("Filter", Model)
+
+@Html.Partial("GridItems", Model)
+
+@*@{ 
+    if (Model.ChkData != null)
+    {
+        @Html.DevExpress().PageControl(settings =>
+   {
+       settings.Name = "pcScrollingMaterial1";
+       settings.Width = Unit.Percentage(100);
+       settings.EnableTabScrolling = true;
+       settings.TabAlign = TabAlign.Justify;
+       settings.Styles.Tab.CssClass = "scrolling_Tab";
+       settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel((List<Humica.EF.MD.CFForm>)
+       ViewData[Humica.EF.SYSConstant.LIST_CONF_FORM], "Personal Data")).SetContent(() =>
+       {
+           Html.RenderPartial("TapPersonalData", Model);
+       });
+       settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel((List<Humica.EF.MD.CFForm>)
+       ViewData[Humica.EF.SYSConstant.LIST_CONF_FORM], "Working Experience")).SetContent(() =>
+       {
+           Html.RenderPartial("TapWorkHistory", Model);
+       });
+       settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel((List<Humica.EF.MD.CFForm>)
+       ViewData[Humica.EF.SYSConstant.LIST_CONF_FORM], "Education Background")).SetContent(() =>
+       {
+           Html.RenderPartial("TapEdu", Model);
+       });
+       settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel((List<Humica.EF.MD.CFForm>)
+       ViewData[Humica.EF.SYSConstant.LIST_CONF_FORM], "Languages")).SetContent(() =>
+       {
+           Html.RenderPartial("TapLang", Model);
+       });
+       settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel((List<Humica.EF.MD.CFForm>)
+       ViewData[Humica.EF.SYSConstant.LIST_CONF_FORM], "Reference")).SetContent(() =>
+       {
+           Html.RenderPartial("TapRef", Model);
+       });
+
+   }).GetHtml();
+    }
+}*@

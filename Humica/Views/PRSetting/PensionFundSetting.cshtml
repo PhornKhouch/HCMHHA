@@ -1,0 +1,74 @@
+﻿@{
+    var grid = Html.DevExpress().GridView(
+       settings =>
+       {
+
+           settings.Name = "gvPensionFundSetting";
+           settings.KeyFieldName = "TrainNo";
+           settings.Width = Unit.Percentage(80);
+           settings.SettingsEditing.Mode = GridViewEditingMode.Inline;
+           settings.CallbackRouteValues = new { Action = "PensionFundSetting", Controller = "PRSetting" };
+           settings.SettingsEditing.AddNewRowRouteValues = new { Controller = "PRSetting", Action = "CreateItem" };
+           settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "PRSetting", Action = "ItemEdit" };
+           settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "PRSetting", Action = "ItemDelete" };
+
+           settings.CommandColumn.Visible = true;
+           settings.CommandColumn.ShowDeleteButton = true;
+           settings.CommandColumn.FixedStyle = GridViewColumnFixedStyle.Left;
+           settings.CommandColumn.ShowNewButtonInHeader = true;
+           settings.CommandColumn.ShowCancelButton = true;
+           settings.CommandColumn.ShowEditButton = true;
+           settings.SettingsBehavior.AllowFocusedRow = true;
+           settings.SettingsBehavior.ConfirmDelete = true;
+           settings.Columns.Add(column =>
+           {
+               column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Sevice Lenght From (M)");
+               column.Width = 150;
+               column.FieldName = "SeviceLenghtFrom";
+
+               column.ColumnType = MVCxGridViewColumnType.TextBox;
+               var textProperties = column.PropertiesEdit as TextBoxProperties;
+               textProperties.Width = Unit.Percentage(100);
+
+           });
+           settings.Columns.Add(column =>
+           {
+               column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Sevice Lenght To (M)");
+               column.Width = 150;
+               column.FieldName = "SeviceLenghtTo";
+
+               column.ColumnType = MVCxGridViewColumnType.TextBox;
+               var textProperties = column.PropertiesEdit as TextBoxProperties;
+               textProperties.Width = Unit.Percentage(100);
+
+           });
+           settings.Columns.Add(column =>
+           {
+               column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Company Contribution (%)");
+               column.Width = 150;
+               column.FieldName = "ComPercentage";
+
+               column.ColumnType = MVCxGridViewColumnType.TextBox;
+               var textProperties = column.PropertiesEdit as TextBoxProperties;
+               textProperties.Width = Unit.Percentage(100);
+
+           });
+           settings.Columns.Add(column =>
+           {
+               column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Staff Contribution (%)");
+               column.Width = 150;
+               column.FieldName = "StaffPercentage";
+
+               column.ColumnType = MVCxGridViewColumnType.TextBox;
+               var textProperties = column.PropertiesEdit as TextBoxProperties;
+               textProperties.Width = Unit.Percentage(100);
+
+           });
+       });
+
+    if (ViewData["EditError"] != null)
+    {
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+@grid.Bind(Model).GetHtml()

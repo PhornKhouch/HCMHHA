@@ -1,0 +1,127 @@
+﻿
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#_btnExportAction').click(function () {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL].ToString()" + "ExportTo?id=" + pcScrollingMaterial1.GetActiveTab().index;
+        });
+    });
+    function SelectCompanyGroup(s, e) {
+        var _Code = s.GetSelectedItem().GetColumnText(1);
+        txtWorkGroup.SetValue(_Code);
+        $.ajax({
+            type: 'post',
+            url: "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + '/SelectItemElement',
+            data: { 'Code': _Code },
+            success: function (data) {
+                if (data.MS == "OK") {
+                    gridCompanyTree.Refresh();
+                }
+                else {
+                    AlertMessage(data.MS);
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                AlertMessage(XMLHttpRequest.responseText);
+            }
+        });
+    }
+    function SelectCompanyMember(s, e) {
+        txtCompanyMemberDesc.SetValue(s.GetSelectedItem().GetColumnText(1));
+    }
+    function OnBeginCallback(s, e) {
+        if (e.command == "STARTEDIT") {
+            e.customArgs["WorkGroup"] = s.GetRowKey(s.GetFocusedRowIndex());
+            $.ajax({
+                type: 'post',
+                url: "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + '/SelectItemID',
+                data: { 'ID': e.customArgs["WorkGroup"] },
+                success: function (data) {
+                    if (data == "OK") {
+                        gridCompanyTree.Refresh();
+                    }
+                },
+            });
+        }
+    }
+    function button1_CheckedChanged(s, e) {
+        if (s.GetChecked()) {
+            location.reload();
+        } else {
+            location.reload();
+        }
+    }
+    @*function SelectCompanyGroup(s, e) {
+        $.ajax({
+            type: 'post',
+            url: "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + '/SelectParentElement',
+            data: { 'Code': txtCompanyMember.SetValue() },
+            success: function (data) {
+                if (data.MS == "OK") {
+                    gridCompanyTree.Refresh();
+                }
+                else {
+                    AlertMessage(data.MS);
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                AlertMessage(XMLHttpRequest.responseText);
+            }
+        });
+    }*@
+</script>
+
+
+@model  Humica.Logic.HRS.MDCompanyTree
+@*<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 card">
+            @Html.DevExpress().Button(settings =>
+            {
+                settings.Name = "button1";
+                settings.Text = "Refresh";
+                settings.Width = 120;
+                settings.GroupName = "FakeGroup";
+                settings.ClientSideEvents.CheckedChanged = "button1_CheckedChanged";
+            }).GetHtml()
+            <div id="tree_permission">
+                @Html.Partial("TreePermission", Model)
+            </div>
+        </div>
+        <div class="col-md-8 card">*@
+@Html.DevExpress().PageControl(
+    settings =>
+    {
+        settings.Name = "pcScrollingMaterial1";
+        settings.Width = Unit.Percentage(100);
+
+        settings.EnableTabScrolling = true;
+        settings.TabAlign = TabAlign.Justify;
+
+        settings.Styles.Tab.CssClass = "scrolling_Tab";
+        settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("Company")).SetContent(() =>
+        {
+            @Html.RenderPartial("GridviewCompanyGroups", Model.ListCompanyGroup);
+        });
+        settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("CompanyTree")).SetContent(() =>
+        {
+            @Html.RenderPartial("GridviewTree", Model.ListCompanyTree);
+
+        });
+        settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("Tree")).SetContent(() =>
+        {
+            @Html.DevExpress().Button(s =>
+            {
+                s.Name = "button1";
+                s.Text = "Refresh";
+                s.Width = 120;
+                s.GroupName = "FakeGroup";
+                s.ClientSideEvents.CheckedChanged = "button1_CheckedChanged";
+            }).GetHtml();
+
+            @Html.RenderPartial("CompanyTree", Model);
+        });
+    }).GetHtml()
+        @*</div>
+    </div>
+</div>*@

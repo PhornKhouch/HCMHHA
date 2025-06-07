@@ -1,0 +1,123 @@
+﻿@model Humica.Logic.RCM.RCMRecruitRequestObject
+
+<script type="text/javascript">
+    var JDCode = "@Model.Header.JDCode";
+    var POST = "@Model.Header.POST";
+    $(document).ready(function () {
+
+        $('#_btnBackAction').click(function () {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]";
+        });
+        $('#_btnSaveActionGrid').click(function () {
+            $("form").submit();
+        });
+    });
+
+    function SelectJD(s, e) {
+        selectedIDs = s.GetSelectedItem().GetColumnText(0);
+        ShowData();
+    }
+    function ShowData() {
+        $.ajax({
+            type: 'post',
+            url: _baseUrl + '/HRM/RCM/RCMRecruitRequest/ShowData',
+            data: { 'Code': selectedIDs, 'Action': 'Create' },
+            success: function (data) {
+                if (data.MS == "@Humica.EF.SYSConstant.OK") {
+
+                    txtJobRespon.SetValue(data.JobRespon);
+                    txtJobRequire.SetValue(data.JobRequire);
+                }
+                else {
+                    AlertMessage(data.MS);
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                AlertMessage(XMLHttpRequest.responseText);
+            }
+        });
+    }
+    function selectDepartment(s, e) {
+        $.ajax({
+            type: 'post',
+            url: _baseUrl + '/HRM/RCM/RCMRecruitRequest/JobType',
+            data: { 'code': s.GetValue(), 'addType': 'Department' },
+            success: function (data) {
+                cboPosition.PerformCallback();
+            }
+        });
+    }
+    function InitDepartment(s, e) {
+        $.ajax({
+            type: 'post',
+            url: _baseUrl + '/HRM/RCM/RCMRecruitRequest/JobType',
+            data: { 'code': s.GetValue(), 'addType': 'Department' },
+            success: function (data) {
+                if (data.MS == "@Humica.EF.SYSConstant.OK") {
+                    cboPosition.PerformCallback();
+                    cboPosition.SetValue(POST);
+                }
+            }
+        });
+    }
+    function SelectPosition(s, e) {
+        SelectPosition_(s.GetValue());
+    }
+    function SelectPosition_(Code) {
+        $.ajax({
+            type: 'post',
+            url: _baseUrl + '/HRM/RCM/RCMRecruitRequest/JobType',
+            data: { 'Code': Code, 'addType': '' },
+            success: function (data) {
+                if (data.MS == "@Humica.EF.SYSConstant.OK") {
+                    JBID.PerformCallback();
+                }
+                else {
+                    AlertMessage(data.MS);
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                AlertMessage(XMLHttpRequest.responseText);
+            }
+        });
+    }
+    function initPost(s, e) {
+         $.ajax({
+            type: 'post',
+             url: _baseUrl + '/HRM/RCM/RCMRecruitRequest/JobType',
+             data: { 'Code': s.GetValue(), 'addType': '' },
+            success: function (data) {
+                if (data.MS == "@Humica.EF.SYSConstant.OK") {
+                    JBID.PerformCallback();
+                    JBID.SetValue(JDCode);
+                }
+            }
+        });
+    }
+
+</script>
+
+@Html.Partial("RequestFormInfor", Model)
+
+@Html.DevExpress().PageControl(
+   settings =>
+   {
+       settings.Name = "pcScrollingWorkCalendar";
+       settings.Width = Unit.Percentage(100);
+
+       settings.EnableTabScrolling = true;
+       settings.TabAlign = TabAlign.Justify;
+
+       settings.Styles.Tab.CssClass = "scrolling_Tab";
+       settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel((List<Humica.EF.MD.CFForm>)
+       ViewData[Humica.EF.SYSConstant.LIST_CONF_FORM], "JD")).SetContent(() =>
+       {
+           Html.RenderPartial("TabJD", Model);
+       });
+       settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel((List<Humica.EF.MD.CFForm>)
+        ViewData[Humica.EF.SYSConstant.LIST_CONF_FORM], "ApprovalDetail")).SetContent(() =>
+        {
+            Html.RenderPartial("GridApproval", Model.ListApproval);
+        });
+
+   }).GetHtml()

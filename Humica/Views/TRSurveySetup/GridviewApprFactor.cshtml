@@ -1,0 +1,125 @@
+﻿@{
+    var grid = Html.DevExpress().GridView(
+       settings =>
+       {
+
+           settings.Name = "gridViewItem3";
+           settings.KeyFieldName = "Code";
+
+           settings.Width = Unit.Percentage(100);
+           settings.SettingsEditing.Mode = GridViewEditingMode.PopupEditForm;
+
+           settings.CallbackRouteValues = new { Controller = "TRSurveySetup", Action = "GridItemApprFactor" };
+
+           settings.SettingsEditing.AddNewRowRouteValues = new { Controller = "TRSurveySetup", Action = "CreateApprFactor" };
+           settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "TRSurveySetup", Action = "EditApprFactor" };
+           settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "TRSurveySetup", Action = "DeleteApprFactor" };
+
+           settings.SettingsSearchPanel.Visible = true;
+           settings.CommandColumn.Visible = true;
+           settings.CommandColumn.ShowDeleteButton = true;
+           settings.CommandColumn.FixedStyle = GridViewColumnFixedStyle.Left;
+           settings.CommandColumn.ShowNewButtonInHeader = true;
+           settings.CommandColumn.ShowCancelButton = true;
+           settings.CommandColumn.ShowEditButton = true;
+           settings.SettingsBehavior.AllowFocusedRow = true;
+           settings.SettingsBehavior.ConfirmDelete = true;
+
+           settings.Columns.Add(column =>
+           {
+               column.Width = 100;
+               column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Code");
+               column.FieldName = "Code";
+
+           });
+
+           settings.Columns.Add(column =>
+           {
+               column.Width = 400;
+               column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Description");
+               column.FieldName = "Description";
+           });
+           settings.Columns.Add(column =>
+           {
+               column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Categories");
+               column.Width = 250;
+               column.FieldName = "Region";
+               column.ColumnType = MVCxGridViewColumnType.ComboBox;
+               var textProperties = column.PropertiesEdit as ComboBoxProperties;
+               textProperties.AllowNull = true;
+               textProperties.DataSource = ViewData["REGION_SELECT"];
+               textProperties.TextFormatString = "{0}";
+               textProperties.ValueField = "Code";
+               textProperties.Columns.Add("Description", Humica.EF.Models.SY.SYSettings.getLabel("Description"), 200);
+               textProperties.ValueType = typeof(string);
+               textProperties.Width = Unit.Percentage(100);
+           });
+           settings.Columns.Add(column =>
+           {
+               column.Width = 200;
+               column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Second Description");
+               column.FieldName = "SecDescription";
+
+           });
+
+           settings.Columns.Add(column =>
+           {
+               column.Width = 250;
+               column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Remark");
+               column.FieldName = "Remark";
+               column.ColumnType = MVCxGridViewColumnType.TextBox;
+           });
+           settings.SettingsEditing.Mode = GridViewEditingMode.PopupEditForm;
+           settings.SettingsEditing.EditFormColumnCount = 2;
+
+           settings.Settings.VerticalScrollBarMode = ScrollBarMode.Hidden;
+           settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Auto;
+           settings.Settings.ShowHeaderFilterButton = true;
+
+           settings.SettingsPager.PageSize = 15;
+           settings.SettingsPager.EnableAdaptivity = true;
+           settings.SettingsPager.PageSizeItemSettings.Visible = true;
+
+           settings.SettingsExport.EnableClientSideExportAPI = true;
+           settings.SettingsExport.ExportSelectedRowsOnly = true;
+
+           settings.SettingsPopup.EditForm.SettingsAdaptivity.MaxWidth = 800;
+           settings.SettingsPopup.EditForm.SettingsAdaptivity.Mode = PopupControlAdaptivityMode.Always;
+           settings.SettingsPopup.EditForm.SettingsAdaptivity.VerticalAlign = PopupAdaptiveVerticalAlign.WindowCenter;
+
+
+           settings.SettingsBehavior.AllowFocusedRow = true;
+
+           settings.CustomJSProperties = (sender, e) =>
+           {
+               e.Properties["cpVisibleRowCount"] = (sender as MVCxGridView).VisibleRowCount;
+           };
+
+           settings.CellEditorInitialize = (s, e) =>
+           {
+               ASPxEdit editor = (ASPxEdit)e.Editor;
+               editor.ValidationSettings.Display = Display.Dynamic;
+               if (e.KeyValue != null)
+               {
+                   if (e.Column.FieldName == "Code")
+                   {
+                       e.Editor.ReadOnly = true;
+                   }
+               }
+
+               if (e.Column.FieldName == "Status")
+               {
+                   //e.Editor.ReadOnly = true;
+               }
+           };
+
+
+       });
+
+    if (ViewData["EditError"] != null)
+    {
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+@grid.Bind(Model).GetHtml()
+

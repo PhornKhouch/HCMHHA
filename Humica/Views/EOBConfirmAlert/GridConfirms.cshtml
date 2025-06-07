@@ -1,0 +1,124 @@
+﻿    @{
+        var grid = Html.DevExpress().GridView(settings =>
+        {
+            settings.Name = "GridConfirms";
+            settings.KeyFieldName = "ApplicantID";
+            settings.Width = Unit.Percentage(100);
+            settings.EnableRowsCache = true;
+            settings.EnableTheming = true;
+            settings.SettingsEditing.Mode = GridViewEditingMode.Inline;
+            settings.SettingsEditing.NewItemRowPosition = GridViewNewItemRowPosition.Bottom;
+            settings.CallbackRouteValues = new { Action = "GridConfirms", Controller = "EOBConfirmAlert" };
+            settings.CommandColumn.Visible = false;
+            settings.SettingsBehavior.AllowFocusedRow = true;
+            settings.SettingsPager.PageSizeItemSettings.Visible = false;
+            settings.SettingsSearchPanel.Visible = true;
+            settings.Columns.Add(column =>
+            {
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel(ViewData[Humica.EF.SYSConstant.SCREEN_ID].ToString(), "");
+                column.Width = 100;
+                column.SetDataItemTemplateContent(container =>
+                {
+                    Html.DevExpress().HyperLink(hyperlink =>
+                    {
+                        hyperlink.Name = "hl" + container.VisibleIndex;
+                        hyperlink.Properties.Text = Humica.EF.Models.SY.SYSettings.getLabel(ViewData[Humica.EF.SYSConstant.SCREEN_ID].ToString(), "Confirm");
+                        hyperlink.ToolTip = Convert.ToString(DataBinder.Eval(container.DataItem, "ID"));
+                        hyperlink.NavigateUrl = Humica.EF.Models.SY.SYUrl.getBaseUrl() + ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL] + "Edit?ID=" + Convert.ToString(DataBinder.Eval(container.DataItem, "ID"));
+                    }).Render();
+                });
+            });
+            settings.Columns.Add(column =>
+            {
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("ApplicantID");
+                column.Width = 110;
+                column.FieldName = "ID";
+                var textProperties = column.PropertiesEdit as TextBoxProperties;
+                textProperties.ValidationSettings.Display = Display.None;
+            });
+            settings.Columns.Add(column =>
+            {
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Candidate Name");
+                column.Width = 160;
+                column.FieldName = "Name";
+                var textProperties = column.PropertiesEdit as TextBoxProperties;
+                textProperties.ValidationSettings.Display = Display.None;
+            });
+            settings.Columns.Add(column =>
+            {
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Title");
+                column.Width = 160;
+                column.FieldName = "Title";
+                var textProperties = column.PropertiesEdit as TextBoxProperties;
+                textProperties.ValidationSettings.Display = Display.None;
+            });
+            settings.Columns.Add(column =>
+            {
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Sender Name");
+                column.Width = 120;
+                column.FieldName = "SenderName";
+                var textProperties = column.PropertiesEdit as TextBoxProperties;
+                textProperties.ValidationSettings.Display = Display.None;
+            });
+            settings.Columns.Add(column =>
+            {
+                column.FieldName = "DateOfSending";
+                column.Width = 110;
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Date Of Sending");
+                column.ColumnType = MVCxGridViewColumnType.DateEdit;
+                (column.PropertiesEdit as DateEditProperties).DisplayFormatString = ViewData[Humica.EF.SYSConstant.DATE_FORMAT].ToString();
+                (column.PropertiesEdit as DateEditProperties).EditFormatString = ViewData[Humica.EF.SYSConstant.DATE_FORMAT].ToString();
+                (column.PropertiesEdit as DateEditProperties).DisplayFormatInEditMode = true;
+            });
+            settings.Columns.Add(column =>
+            {
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Sending Selected");
+                column.Width = 120;
+                column.FieldName = "SendingSelected";
+                var textProperties = column.PropertiesEdit as TextBoxProperties;
+                textProperties.ValidationSettings.Display = Display.None;
+            });
+            settings.Columns.Add(column =>
+            {
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Email/Phone");
+                column.Width = 200;
+                column.FieldName = "Remark";
+                var textProperties = column.PropertiesEdit as TextBoxProperties;
+                textProperties.ValidationSettings.Display = Display.None;
+            });
+            settings.Columns.Add(column =>
+            {
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Status");
+                column.Width = 200;
+                column.FieldName = "Status";
+                var textProperties = column.PropertiesEdit as TextBoxProperties;
+                textProperties.ValidationSettings.Display = Display.None;
+            });
+            settings.Columns.Add(column =>
+            {
+                column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Confirmed");
+                column.Width = 90;
+                column.FieldName = "Confirmed";
+                column.ColumnType = MVCxGridViewColumnType.CheckBox;
+            });
+            settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Visible;
+            settings.SettingsDataSecurity.AllowReadUnlistedFieldsFromClientApi = DefaultBoolean.True;
+            settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible;
+            settings.Settings.VerticalScrollableHeight = Humica.EF.MD.SYSession.PageHieigh;
+            settings.SettingsPager.PageSize = 10;
+            settings.SettingsBehavior.ColumnResizeMode = ColumnResizeMode.Control;
+            settings.Settings.VerticalScrollBarMode = ScrollBarMode.Hidden;
+            settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Auto;
+            settings.CustomJSProperties = (sender, e) =>
+            {
+                e.Properties["cpVisibleRowCount"] = (sender as MVCxGridView).VisibleRowCount;
+            };
+        });
+    }
+
+    @grid.Bind(Model).GetHtml()
+
+
+
+
+

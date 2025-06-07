@@ -1,0 +1,85 @@
+﻿<script src="~/Content/orgchart.js"></script>
+
+@model Humica.Logic.MD.NodeModel
+<script type="text/javascript">
+    OrgChart.LAZY_LOADING_FACTOR = 1000
+    OrgChart.TEXT_THRESHOLD = 1000;
+    OrgChart.IMAGES_THRESHOLD = 1000;
+    OrgChart.LINKS_THRESHOLD = 5000;
+    OrgChart.BUTTONS_THRESHOLD = 200;
+    OrgChart.ANIM_THRESHOLD = 200;
+    $(document).ready(function () {
+        ShowData();
+        $("#_btnActionRun").click(function () {
+            ShowData();
+        });
+    });
+    function ShowData() {
+        $.ajax({
+            type: 'post',
+            url: _baseUrl + '/Reporting/RPTOrgChart/GetData',
+            data: { 'Branch': txtBranch.GetValue(), 'Department': txtDepartment.GetValue() },
+            success: function (data) {
+                if (data.MS == "OK") {
+
+                    var nodes = data.DT;
+                    for (var i = 0; i < nodes.length; i++) {
+                        var node = nodes[i];
+                        if (node.tags != null) {
+                            node.tags = [node.tags];
+                        }
+                    }
+                    var chart = new OrgChart(document.getElementById("tree"), {
+                        menu: {
+                            pdf: { text: "Export PDF" },
+                            png: { text: "Export PNG" },
+                        },
+                        //filterBy: ['Branch', 'title'],
+                        //nodeMenu: {
+                        //    pdf: { text: "Export PDF" },
+                        //    png: { text: "Export PNG" },
+                        //    svg: { text: "Export SVG" }
+                        //},
+                        //mouseScrool: OrgChart.none,
+                        template: "ula",
+                        mouseScrool: OrgChart.action.scroll,
+                        showXScroll: OrgChart.scroll.visible,
+                        showYScroll: OrgChart.scroll.visible,
+                        enableSearch: false,
+
+                        //mode: 'dark',
+                        layout: OrgChart.mixed,
+                        nodeBinding: {
+                            //imgs: "img",
+                            field_0: "name",
+                            field_1: "title",
+                            img_0: "img",
+                        },
+                        nodes: nodes
+                    });
+                }
+
+            }
+        });
+    }
+</script>
+<style>
+    /*CSS*/
+    html, body {
+         margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+    overflow: hidden;
+    }
+
+    #tree {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+@Html.Partial("FREmpoyeeReport", Model)
+<div id="tree"></div>
+

@@ -1,0 +1,39 @@
+﻿
+<script type="text/javascript">
+    $('#linkFavoriteList').hide();
+
+    $(document).ready(function () {
+        $('#_btnExportAction').click(function () {            
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL].ToString()" + "ExportTo?id=" + pcScrollingMaterial1.GetActiveTab().index;
+        });
+        $('#_btnActionRun').hide();
+    });
+</script>
+
+
+@model   Humica.Models.Training.TrainingSurveySetupObject
+
+@Html.DevExpress().PageControl(
+    settings =>
+    {
+        settings.Name = "pcScrollingMaterial1";
+        settings.Width = Unit.Percentage(100);
+
+        settings.EnableTabScrolling = true;
+        settings.TabAlign = TabAlign.Justify;
+
+        settings.Styles.Tab.CssClass = "scrolling_Tab";
+
+        settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("Categories")).SetContent(() =>
+        {
+            @Html.RenderPartial("GridviewApprRegion", Model.ListSurveyRegion);
+        });
+        settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("Items")).SetContent(() =>
+        {
+            @Html.RenderPartial("GridviewApprFactor", Model.ListSurveyFactor);
+        });
+        settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("Rating Scale")).SetContent(() =>
+        {
+            @Html.RenderPartial("GridviewApprRating", Model.ListSurveyRating);
+        });
+    }).GetHtml()

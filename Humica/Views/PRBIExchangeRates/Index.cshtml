@@ -1,0 +1,16 @@
+﻿@using Humica.EF.Models.SY
+<script type="text/javascript">
+    $('#linkFavoriteList').hide();
+
+    $(document).ready(function () {
+        $('#_btnExportAction').click(function () {
+            window.location = "@SYUrl.getBaseUrl()" + "@ViewData[SYConstant.CURRENT_URL].ToString()" + "ExportTo?id=" + pcScrollingMaterial1.GetActiveTab().index;
+        });
+    });
+</script>
+
+
+@model  Humica.Logic.PR.PRMExchangeRate
+
+@Html.Partial("GridItems", Model.ListBiHeader)
+

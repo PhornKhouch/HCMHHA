@@ -1,0 +1,2038 @@
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.csproj.AssemblyReference.cache
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpEvaluate.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpKPI.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptFromAppraisal.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetStaffReturnD.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetTransfer.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpAsset.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTMasterAsset.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RPTEmpAttendanceDept.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptEmpOT.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RPTEmpSumAttend.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RptMissScan.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttByDate.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttendance.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RPTSummaryAttendance.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RPT_EmpInOut.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMEOBAnnounce.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\FRMHealthCheckUp.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.EOB.FRM_ConfirmAlert.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DessRequest.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressDeduct.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressReturn.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressTransfer.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.RPTBackCard.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\RPTComplain.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptDeclareIn.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptDeclareOut.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.RPTDelegate_rule.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.rptDisciplineLetter.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptEducation.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptEmpCareer.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptEmpContract.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptEmpContractLetter.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptEmpContractProbation.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpInsurance.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.RptEmployeeContact.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptEmployeeContract.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptEmpTShirt.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.RptFamily.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.RPTFrontCard.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.RptHeadCount.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptListing.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptListingEmployee.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.RptNewJoin.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.RptProbation.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptResignListing.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffDeposit.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffMovement.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.Rpt_Card.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeAction.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeConcern.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.HRM.FollowUpForm.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.HRM.ManagementGuideLineForm.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.KPI.RPTAppraisal.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIAssign.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIEmpByTeam.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIEvaluation.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIIndicator.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIPlanDepartment.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPITracking.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.RptKPITrackingStatistic.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.KPI.RPTTimeSheet.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RPTLeaveEntitled.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptLeaveTaken.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_RequestOT.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptAllowance.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptAnalysis.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAFPay.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAReport.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcleda.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcledaFPay.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPu.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCamPuFPay.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPuV1.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCashReport.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCU.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrince.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrinceFPay.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankWin.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBouns.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPTCompareDetails.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptDeduction.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEForm.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpLoan.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpTaxDetails.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptFringeBenefit.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTJournalReport.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLeaveDeduction.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLoanSummary.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTManPower.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyCompare.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyFirstPay.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyPay.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\RptMonthlyReport.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptMonthlySeverancePay.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTNSSFLatter.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFList.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFSummary.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTOvertime.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPayHistory.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlip.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlip1.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlipByEmp.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlipOld.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\DBProcess.Models.HR.RPTProfessionFee.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptSummaryPay.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptTaxSummary.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPT_EfillingTax.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_increse_salary.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.HRM.FRM_probation.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.RCM.FRMCandidateEvaluation.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMERecruitment.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMGuideRecruitment.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMInterviewChklstTakeNote.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMRequest.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTApplicant.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTRecruitmentRequest.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\HUMICA.Models.Report.RptQRCodeLocation.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.RptResuestPayment.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Rpt_PurchaseRequestForm.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\RPT_PURCHASE_ORDER.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.XtraReport1.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Properties.Resources.resources
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.csproj.GenerateResource.cache
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.dll.licenses
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.csproj.CoreCompileInputs.cache
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.dll.config
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Azure.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Azure.Identity.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Charts.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.CodeParser.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Dashboard.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Dashboard.v23.2.Web.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Data.Desktop.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Data.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.DataAccess.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Docs.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Drawing.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Office.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Pdf.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.PivotGrid.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Printing.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.RichEdit.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.RichEdit.v23.2.Export.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Sparkline.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxThemes.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.Mvc5.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Xpo.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraCharts.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraGauges.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraReports.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.dll
+D:\Project Develop\HumicaTELA\Humica\bin\EntityFramework.dll
+D:\Project Develop\HumicaTELA\Humica\bin\EntityFramework.SqlServer.dll
+D:\Project Develop\HumicaTELA\Humica\bin\FirebaseAdmin.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Api.Gax.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Api.Gax.Rest.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Apis.Auth.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Apis.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Apis.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Hangfire.AspNet.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Hangfire.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Hangfire.SqlServer.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Attendance.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.EF.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Integration.EF.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.License.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Logic.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Performance.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Service.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Training.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Web.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Integration.API.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Data.SqlClient.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Identity.Client.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Abstractions.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Logging.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Protocols.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.Security.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Web.Infrastructure.dll
+D:\Project Develop\HumicaTELA\Humica\bin\N.EntityFramework.Extensions.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Newtonsoft.Json.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Owin.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Quartz.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Buffers.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.ClientModel.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.CodeDom.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Collections.Immutable.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Configuration.ConfigurationManager.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.IO.FileSystem.AccessControl.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Memory.Data.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Memory.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Numerics.Vectors.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Security.AccessControl.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Security.Cryptography.ProtectedData.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Security.Permissions.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Security.Principal.Windows.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Text.Encodings.Web.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Text.Json.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Threading.Tasks.Extensions.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.ValueTuple.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.Helpers.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.Mvc.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.Razor.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.WebPages.Deployment.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.WebPages.dll
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.WebPages.Razor.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.TelegramSharp.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Notification.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Calculate.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Map.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraTreeMap.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.TreeMap.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.DataVisualization.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Snap.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Pdf.v23.2.Drawing.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraCharts.v23.2.Web.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraReports.v23.2.Web.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.SpellChecker.v23.2.Core.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.Resources.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\RestSharp.dll
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Images.v23.2.dll
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Attendance.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Attendance.dll.config
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Core.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Core.dll.config
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Logic.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Logic.dll.config
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Performance.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Performance.dll.config
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Service.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Service.dll.config
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Training.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Humica.Training.dll.config
+D:\Project Develop\HumicaTELA\Humica\bin\Integration.API.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Integration.API.dll.config
+D:\Project Develop\HumicaTELA\Humica\bin\Azure.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Azure.Identity.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Charts.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Dashboard.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Dashboard.v23.2.Web.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Data.Desktop.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Data.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.DataAccess.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Docs.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Drawing.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Office.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Pdf.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.PivotGrid.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Printing.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.RichEdit.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Sparkline.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.Mvc5.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Xpo.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraCharts.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraGauges.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraReports.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.xml
+D:\Project Develop\HumicaTELA\Humica\bin\EntityFramework.xml
+D:\Project Develop\HumicaTELA\Humica\bin\EntityFramework.SqlServer.xml
+D:\Project Develop\HumicaTELA\Humica\bin\FirebaseAdmin.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Api.Gax.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Api.Gax.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Api.Gax.Rest.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Api.Gax.Rest.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Apis.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Apis.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Apis.Auth.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Apis.Auth.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Apis.Core.pdb
+D:\Project Develop\HumicaTELA\Humica\bin\Google.Apis.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Hangfire.AspNet.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Hangfire.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Hangfire.SqlServer.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Data.SqlClient.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Identity.Client.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Abstractions.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Logging.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Protocols.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Newtonsoft.Json.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Quartz.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Buffers.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.ClientModel.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.CodeDom.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Collections.Immutable.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Configuration.ConfigurationManager.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.IO.FileSystem.AccessControl.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Memory.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Memory.Data.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Numerics.Vectors.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Security.AccessControl.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Security.Cryptography.ProtectedData.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Security.Permissions.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Security.Principal.Windows.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Text.Encodings.Web.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Text.Json.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Threading.Tasks.Extensions.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.ValueTuple.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.Helpers.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.Mvc.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.Razor.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.WebPages.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.WebPages.Deployment.xml
+D:\Project Develop\HumicaTELA\Humica\bin\System.Web.WebPages.Razor.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.Security.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\Project Develop\HumicaTELA\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Map.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraTreeMap.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.TreeMap.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Snap.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Pdf.v23.2.Drawing.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraCharts.v23.2.Web.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraReports.v23.2.Web.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.SpellChecker.v23.2.Core.xml
+D:\Project Develop\HumicaTELA\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.xml
+D:\Project Develop\HumicaTELA\Humica\bin\ca\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\de\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\es\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\fa\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\fr\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\nb\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\nl\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\pt\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\pt-BR\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\pt-PT\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\sv\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\tr-TR\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\zh\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\zh-TW\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.csproj.Up2Date
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.dll
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.pdb
+D:\Project Develop\HumicaTELA\Humica\obj\Debug\Humica.Models.Report.KPI.RPTSumEmployeeKPI.resources
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.dll.config
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Azure.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Azure.Identity.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Charts.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.CodeParser.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Data.Desktop.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Data.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.DataAccess.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Docs.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Drawing.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Office.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Pdf.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.PivotGrid.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Printing.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.RichEdit.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.RichEdit.v23.2.Export.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Sparkline.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxThemes.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.Mvc5.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Xpo.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraCharts.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraGauges.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.dll
+D:\Project Develop\HumicaHHA\Humica\bin\EntityFramework.dll
+D:\Project Develop\HumicaHHA\Humica\bin\EntityFramework.SqlServer.dll
+D:\Project Develop\HumicaHHA\Humica\bin\FirebaseAdmin.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Api.Gax.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Api.Gax.Rest.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Apis.Auth.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Apis.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Apis.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Hangfire.AspNet.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Hangfire.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Hangfire.SqlServer.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Attendance.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.EF.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Integration.EF.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.License.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Logic.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Performance.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Service.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Training.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Web.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Integration.API.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Data.SqlClient.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Identity.Client.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Abstractions.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Logging.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocols.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.Security.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Web.Infrastructure.dll
+D:\Project Develop\HumicaHHA\Humica\bin\N.EntityFramework.Extensions.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Newtonsoft.Json.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Owin.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Quartz.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Buffers.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.ClientModel.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.CodeDom.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Collections.Immutable.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Configuration.ConfigurationManager.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.IO.FileSystem.AccessControl.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Memory.Data.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Memory.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Numerics.Vectors.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Security.AccessControl.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Security.Cryptography.ProtectedData.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Security.Permissions.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Security.Principal.Windows.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Text.Encodings.Web.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Text.Json.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Threading.Tasks.Extensions.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.ValueTuple.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.Helpers.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.Mvc.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.Razor.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.WebPages.Deployment.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.WebPages.dll
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.WebPages.Razor.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.TelegramSharp.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Notification.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Calculate.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Map.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraTreeMap.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.TreeMap.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.DataVisualization.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Snap.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Pdf.v23.2.Drawing.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraCharts.v23.2.Web.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.Web.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.SpellChecker.v23.2.Core.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.Resources.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\RestSharp.dll
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Images.v23.2.dll
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Attendance.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Attendance.dll.config
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Core.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Core.dll.config
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Logic.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Logic.dll.config
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Performance.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Performance.dll.config
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Service.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Service.dll.config
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Training.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Humica.Training.dll.config
+D:\Project Develop\HumicaHHA\Humica\bin\Integration.API.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Integration.API.dll.config
+D:\Project Develop\HumicaHHA\Humica\bin\Azure.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Azure.Identity.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Charts.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Data.Desktop.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Data.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.DataAccess.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Docs.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Drawing.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Office.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Pdf.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.PivotGrid.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Printing.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.RichEdit.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Sparkline.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.Mvc5.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Xpo.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraCharts.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraGauges.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.xml
+D:\Project Develop\HumicaHHA\Humica\bin\EntityFramework.xml
+D:\Project Develop\HumicaHHA\Humica\bin\EntityFramework.SqlServer.xml
+D:\Project Develop\HumicaHHA\Humica\bin\FirebaseAdmin.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Api.Gax.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Api.Gax.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Api.Gax.Rest.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Api.Gax.Rest.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Apis.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Apis.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Apis.Auth.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Apis.Auth.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Apis.Core.pdb
+D:\Project Develop\HumicaHHA\Humica\bin\Google.Apis.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Hangfire.AspNet.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Hangfire.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Hangfire.SqlServer.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Data.SqlClient.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Identity.Client.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Abstractions.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Logging.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocols.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Newtonsoft.Json.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Quartz.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Buffers.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.ClientModel.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.CodeDom.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Collections.Immutable.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Configuration.ConfigurationManager.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.IO.FileSystem.AccessControl.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Memory.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Memory.Data.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Numerics.Vectors.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Security.AccessControl.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Security.Cryptography.ProtectedData.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Security.Permissions.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Security.Principal.Windows.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Text.Encodings.Web.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Text.Json.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Threading.Tasks.Extensions.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.ValueTuple.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.Helpers.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.Mvc.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.Razor.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.WebPages.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.WebPages.Deployment.xml
+D:\Project Develop\HumicaHHA\Humica\bin\System.Web.WebPages.Razor.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.Security.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\Project Develop\HumicaHHA\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Map.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraTreeMap.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.TreeMap.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Snap.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Pdf.v23.2.Drawing.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraCharts.v23.2.Web.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.Web.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.SpellChecker.v23.2.Core.xml
+D:\Project Develop\HumicaHHA\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.xml
+D:\Project Develop\HumicaHHA\Humica\bin\ca\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\de\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\es\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\fa\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\fr\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\nb\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\nl\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\pt\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\pt-BR\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\pt-PT\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\sv\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\tr-TR\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\zh\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\zh-TW\Hangfire.Core.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.csproj.AssemblyReference.cache
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpEvaluate.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpKPI.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptFromAppraisal.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetStaffReturnD.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetTransfer.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpAsset.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTMasterAsset.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RPTEmpAttendanceDept.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpOT.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RPTEmpSumAttend.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RptMissScan.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttByDate.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttendance.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RPTSummaryAttendance.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RPT_EmpInOut.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMEOBAnnounce.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\FRMHealthCheckUp.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.EOB.FRM_ConfirmAlert.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DessRequest.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressDeduct.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressReturn.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressTransfer.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RPTBackCard.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\RPTComplain.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptDeclareIn.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptDeclareOut.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RPTDelegate_rule.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.rptDisciplineLetter.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEducation.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpCareer.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpContract.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpContractLetter.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpContractProbation.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpInsurance.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptEmployeeContact.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmployeeContract.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptEmpTShirt.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptFamily.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RPTFrontCard.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptHeadCount.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptListing.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptListingEmployee.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptNewJoin.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptProbation.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptResignListing.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffDeposit.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffMovement.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.Rpt_Card.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeAction.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeConcern.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.FollowUpForm.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.ManagementGuideLineForm.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RPTSumEmployeeKPI.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RPTAppraisal.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIAssign.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIEmpByTeam.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIEvaluation.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIIndicator.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIPlanDepartment.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPITracking.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RptKPITrackingStatistic.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.KPI.RPTTimeSheet.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RPTLeaveEntitled.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptLeaveTaken.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_RequestOT.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptAllowance.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptAnalysis.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAFPay.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAReport.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcleda.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcledaFPay.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPu.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCamPuFPay.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPuV1.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCashReport.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCU.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrince.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrinceFPay.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankWin.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBouns.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPTCompareDetails.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptDeduction.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEForm.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpLoan.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpTaxDetails.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptFringeBenefit.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTJournalReport.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLeaveDeduction.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLoanSummary.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTManPower.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyCompare.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyFirstPay.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyPay.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\RptMonthlyReport.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptMonthlySeverancePay.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTNSSFLatter.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFList.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFSummary.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTOvertime.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPayHistory.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlip.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlip1.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlipByEmp.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlipOld.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\DBProcess.Models.HR.RPTProfessionFee.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptSummaryPay.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptTaxSummary.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPT_EfillingTax.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_increse_salary.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.FRM_probation.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RCM.FRMCandidateEvaluation.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMERecruitment.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMGuideRecruitment.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMInterviewChklstTakeNote.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMRequest.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTApplicant.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTRecruitmentRequest.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RptQRCodeLocation.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptResuestPayment.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Rpt_PurchaseRequestForm.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\RPT_PURCHASE_ORDER.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.XtraReport1.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.Properties.Resources.resources
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.csproj.GenerateResource.cache
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.dll.licenses
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.csproj.CoreCompileInputs.cache
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.csproj.Up2Date
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.dll
+D:\Project Develop\HumicaHHA\Humica\obj\Debug\Humica.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Azure.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Azure.Identity.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Charts.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.CodeParser.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Data.Desktop.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Data.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.DataAccess.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Docs.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Drawing.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Office.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Pdf.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.PivotGrid.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Printing.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.RichEdit.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.RichEdit.v23.2.Export.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Sparkline.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxThemes.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.Mvc5.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Xpo.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraCharts.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraGauges.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\EntityFramework.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\EntityFramework.SqlServer.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\FirebaseAdmin.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Api.Gax.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Api.Gax.Rest.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Apis.Auth.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Apis.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Apis.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Hangfire.AspNet.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Hangfire.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Hangfire.SqlServer.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Attendance.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.EF.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Integration.EF.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.License.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Logic.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Performance.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Service.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Training.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Web.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Integration.API.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Data.SqlClient.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Identity.Client.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Abstractions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Logging.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocols.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Tokens.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.Security.Cookies.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.Security.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Web.Infrastructure.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\N.EntityFramework.Extensions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Newtonsoft.Json.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Owin.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Quartz.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Buffers.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.ClientModel.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.CodeDom.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Collections.Immutable.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Configuration.ConfigurationManager.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Diagnostics.DiagnosticSource.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.IO.FileSystem.AccessControl.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Memory.Data.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Memory.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Numerics.Vectors.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Security.AccessControl.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Security.Cryptography.ProtectedData.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Security.Permissions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Security.Principal.Windows.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Text.Encodings.Web.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Text.Json.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Threading.Tasks.Extensions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.ValueTuple.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.Helpers.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.Mvc.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.Razor.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.WebPages.Deployment.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.WebPages.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.WebPages.Razor.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.TelegramSharp.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Notification.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Calculate.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Map.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraTreeMap.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.TreeMap.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.DataVisualization.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Snap.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Pdf.v23.2.Drawing.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraCharts.v23.2.Web.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.Web.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.SpellChecker.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.Resources.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\RestSharp.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Images.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Attendance.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Attendance.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Core.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Core.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Logic.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Logic.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Performance.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Performance.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Service.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Service.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Training.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Humica.Training.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Integration.API.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Integration.API.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Azure.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Azure.Identity.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Charts.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Data.Desktop.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Data.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.DataAccess.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Docs.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Drawing.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Office.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Pdf.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.PivotGrid.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Printing.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.RichEdit.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Sparkline.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.Mvc5.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Xpo.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraCharts.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraGauges.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\EntityFramework.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\EntityFramework.SqlServer.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\FirebaseAdmin.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Api.Gax.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Api.Gax.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Api.Gax.Rest.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Api.Gax.Rest.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Apis.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Apis.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Apis.Auth.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Apis.Auth.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Apis.Core.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Google.Apis.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Hangfire.AspNet.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Hangfire.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Hangfire.SqlServer.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Data.SqlClient.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Identity.Client.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Abstractions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Logging.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocols.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Tokens.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Newtonsoft.Json.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Quartz.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Buffers.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.ClientModel.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.CodeDom.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Collections.Immutable.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Configuration.ConfigurationManager.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Diagnostics.DiagnosticSource.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.IO.FileSystem.AccessControl.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Memory.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Memory.Data.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Numerics.Vectors.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Security.AccessControl.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Security.Cryptography.ProtectedData.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Security.Permissions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Security.Principal.Windows.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Text.Encodings.Web.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Text.Json.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Threading.Tasks.Extensions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.ValueTuple.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.Helpers.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.Mvc.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.Razor.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.WebPages.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.WebPages.Deployment.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\System.Web.WebPages.Razor.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.Security.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.Security.Cookies.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Map.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraTreeMap.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.TreeMap.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Snap.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Pdf.v23.2.Drawing.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraCharts.v23.2.Web.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraReports.v23.2.Web.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.SpellChecker.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\ca\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\de\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\es\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\fa\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\fr\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\nb\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\nl\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\pt\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\pt-BR\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\pt-PT\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\sv\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\tr-TR\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\zh\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\zh-TW\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.csproj.AssemblyReference.cache
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpEvaluate.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpKPI.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptFromAppraisal.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetStaffReturnD.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetTransfer.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpAsset.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTMasterAsset.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RPTEmpAttendanceDept.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpOT.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RPTEmpSumAttend.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RptMissScan.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttByDate.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttendance.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RPTSummaryAttendance.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RPT_EmpInOut.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMEOBAnnounce.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\FRMHealthCheckUp.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.EOB.FRM_ConfirmAlert.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DessRequest.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressDeduct.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressReturn.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressTransfer.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RPTBackCard.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\RPTComplain.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptDeclareIn.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptDeclareOut.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RPTDelegate_rule.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.rptDisciplineLetter.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEducation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpCareer.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpContract.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpContractLetter.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmpContractProbation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpInsurance.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptEmployeeContact.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptEmployeeContract.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptEmpTShirt.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptFamily.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RPTFrontCard.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptHeadCount.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptListing.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptListingEmployee.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptNewJoin.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.RptProbation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptResignListing.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffDeposit.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffMovement.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.Rpt_Card.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeAction.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeConcern.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.FollowUpForm.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.ManagementGuideLineForm.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RPTSumEmployeeKPI.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RPTAppraisal.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIAssign.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIEmpByTeam.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIEvaluation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIIndicator.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIPlanDepartment.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPITracking.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RptKPITrackingStatistic.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.KPI.RPTTimeSheet.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RPTLeaveEntitled.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptLeaveTaken.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_RequestOT.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptAllowance.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptAnalysis.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAFPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAReport.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcleda.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcledaFPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPu.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCamPuFPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPuV1.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCashReport.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCU.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrince.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrinceFPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankWin.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBouns.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPTCompareDetails.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptDeduction.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEForm.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpLoan.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpTaxDetails.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptFringeBenefit.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTJournalReport.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLeaveDeduction.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLoanSummary.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTManPower.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyCompare.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyFirstPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\RptMonthlyReport.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptMonthlySeverancePay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTNSSFLatter.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFList.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFSummary.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTOvertime.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPayHistory.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlip.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlip1.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlipByEmp.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlipOld.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\DBProcess.Models.HR.RPTProfessionFee.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptSummaryPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.Payroll.RptTaxSummary.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPT_EfillingTax.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_increse_salary.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.HRM.FRM_probation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RCM.FRMCandidateEvaluation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMERecruitment.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMGuideRecruitment.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMInterviewChklstTakeNote.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.HRM.FRMRequest.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTApplicant.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTRecruitmentRequest.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\HUMICA.Models.Report.RptQRCodeLocation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.RptResuestPayment.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Rpt_PurchaseRequestForm.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\RPT_PURCHASE_ORDER.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Models.Report.XtraReport1.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.Properties.Resources.resources
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.csproj.GenerateResource.cache
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.dll.licenses
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.csproj.CoreCompileInputs.cache
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.csproj.Up2Date
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.dll
+D:\PROJECT DEVELOPMENT\HumicaHHA\Humica\obj\Debug\Humica.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Azure.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Azure.Identity.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Charts.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.CodeParser.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Dashboard.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Dashboard.v23.2.Web.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Data.Desktop.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Data.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.DataAccess.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Docs.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Drawing.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Office.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Pdf.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.PivotGrid.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Printing.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.RichEdit.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.RichEdit.v23.2.Export.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Sparkline.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxThemes.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.Mvc5.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Xpo.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraCharts.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraGauges.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraReports.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\EntityFramework.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\EntityFramework.SqlServer.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\FirebaseAdmin.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Api.Gax.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Api.Gax.Rest.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Apis.Auth.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Apis.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Apis.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Hangfire.AspNet.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Hangfire.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Hangfire.SqlServer.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Attendance.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.ControllerHost.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.EF.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Employee.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Integration.EF.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.License.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Logic.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Performance.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Service.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Training.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Web.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Integration.API.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Data.SqlClient.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Identity.Client.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Logging.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Protocols.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Tokens.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.Security.Cookies.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.Security.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Web.Infrastructure.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\N.EntityFramework.Extensions.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Newtonsoft.Json.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Owin.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Quartz.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Buffers.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.ClientModel.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.CodeDom.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Collections.Immutable.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Configuration.ConfigurationManager.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Diagnostics.DiagnosticSource.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.IO.FileSystem.AccessControl.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Memory.Data.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Memory.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Numerics.Vectors.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Security.AccessControl.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Security.Cryptography.ProtectedData.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Security.Permissions.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Security.Principal.Windows.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Text.Encodings.Web.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Text.Json.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Threading.Tasks.Extensions.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.ValueTuple.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.Helpers.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.Mvc.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.Razor.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.WebPages.Deployment.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.WebPages.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.WebPages.Razor.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.TelegramSharp.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Notification.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Calculate.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Map.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraTreeMap.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.TreeMap.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.DataVisualization.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Snap.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Pdf.v23.2.Drawing.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraCharts.v23.2.Web.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraReports.v23.2.Web.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.SpellChecker.v23.2.Core.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.Resources.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\RestSharp.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Images.v23.2.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Attendance.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Attendance.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.ControllerHost.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.ControllerHost.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Core.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Core.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Logic.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Logic.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Performance.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Performance.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Employee.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Employee.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Service.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Service.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Training.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Training.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Integration.API.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Integration.API.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Azure.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Azure.Identity.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Charts.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Dashboard.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Dashboard.v23.2.Web.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Data.Desktop.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Data.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.DataAccess.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Docs.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Drawing.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Office.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Pdf.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.PivotGrid.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Printing.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.RichEdit.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Sparkline.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.Mvc5.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Xpo.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraCharts.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraGauges.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraReports.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\EntityFramework.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\EntityFramework.SqlServer.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\FirebaseAdmin.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Api.Gax.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Api.Gax.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Api.Gax.Rest.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Api.Gax.Rest.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Apis.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Apis.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Apis.Auth.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Apis.Auth.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Apis.Core.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Google.Apis.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Hangfire.AspNet.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Hangfire.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Hangfire.SqlServer.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Data.SqlClient.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Identity.Client.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Logging.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Protocols.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Tokens.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Newtonsoft.Json.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Quartz.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Buffers.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.ClientModel.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.CodeDom.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Collections.Immutable.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Configuration.ConfigurationManager.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Diagnostics.DiagnosticSource.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.IO.FileSystem.AccessControl.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Memory.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Memory.Data.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Numerics.Vectors.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Security.AccessControl.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Security.Cryptography.ProtectedData.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Security.Permissions.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Security.Principal.Windows.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Text.Encodings.Web.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Text.Json.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Threading.Tasks.Extensions.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.ValueTuple.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.Helpers.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.Mvc.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.Razor.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.WebPages.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.WebPages.Deployment.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\System.Web.WebPages.Razor.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.Security.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.Security.Cookies.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Calculate.pdb
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\Humica.Calculate.dll.config
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Map.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraTreeMap.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.TreeMap.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Snap.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Pdf.v23.2.Drawing.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraCharts.v23.2.Web.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraReports.v23.2.Web.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.SpellChecker.v23.2.Core.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.xml
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\ca\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\de\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\es\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\fa\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\fr\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\nb\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\nl\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\pt\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\pt-BR\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\pt-PT\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\sv\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\tr-TR\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\zh\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\zh-TW\Hangfire.Core.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\de\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\es\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\fr\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\it\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\ja\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\ko\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\ru\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.csproj.AssemblyReference.cache
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpEvaluate.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpKPI.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptFromAppraisal.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetStaffReturnD.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetTransfer.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpAsset.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTMasterAsset.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RPTEmpAttendanceDept.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Attendance.RPTEmpAttendanceSeparate.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptEmpOT.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RPTEmpSumAttend.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RptMissScan.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttByDate.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttendance.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RPTSummaryAttendance.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RPT_EmpInOut.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.FRMEOBAnnounce.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\FRMHealthCheckUp.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.EOB.FRM_ConfirmAlert.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DessRequest.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressDeduct.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressReturn.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressTransfer.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.RPTBackCard.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\RPTComplain.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptDeclareIn.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptDeclareOut.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.RPTDelegate_rule.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.rptDisciplineLetter.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptEducation.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptEmpCareer.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptEmpContract.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptEmpContractLetter.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptEmpContractProbation.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpInsurance.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.RptEmployeeContact.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptEmployeeContract.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptEmpTShirt.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.RptFamily.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.RPTFrontCard.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.RptHeadCount.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptListing.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptListingEmployee.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.RptNewJoin.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.RptProbation.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptResignListing.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffDeposit.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffMovement.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.Rpt_Card.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeAction.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeConcern.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.HRM.FollowUpForm.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.HRM.ManagementGuideLineForm.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.KPI.RPTSumEmployeeKPI.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.KPI.RPTAppraisal.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIAssign.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIEmpByTeam.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIEvaluation.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIIndicator.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIPlanDepartment.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPITracking.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.RptKPITrackingStatistic.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.KPI.RPTTimeSheet.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RPTLeaveEntitled.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptLeaveTaken.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_RequestOT.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptAllowance.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptAnalysis.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAFPay.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAReport.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcleda.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcledaFPay.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPu.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCamPuFPay.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPuV1.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCashReport.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCU.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrince.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrinceFPay.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankWin.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBouns.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPTCompareDetails.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptDeduction.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEForm.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpLoan.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpTaxDetails.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptFringeBenefit.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTJournalReport.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLeaveDeduction.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLoanSummary.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTManPower.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyCompare.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyFirstPay.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyPay.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\RptMonthlyReport.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptMonthlySeverancePay.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTNSSFLatter.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFList.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFSummary.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTOvertime.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPayHistory.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlip.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlip1.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlipByEmp.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlipOld.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\DBProcess.Models.HR.RPTProfessionFee.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptSummaryPay.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.Payroll.RptTaxSummary.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPT_EfillingTax.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_increse_salary.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.HRM.FRM_probation.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.RCM.FRMCandidateEvaluation.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.FRMERecruitment.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.FRMGuideRecruitment.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.FRMInterviewChklstTakeNote.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.HRM.FRMRequest.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTApplicant.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTRecruitmentRequest.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\HUMICA.Models.Report.RptQRCodeLocation.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.RptResuestPayment.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Rpt_PurchaseRequestForm.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\RPT_PURCHASE_ORDER.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Models.Report.XtraReport1.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.Properties.Resources.resources
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.csproj.GenerateResource.cache
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.dll.licenses
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.csproj.CoreCompileInputs.cache
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.csproj.Up2Date
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.dll
+C:\HUMICA\HumicaHHA\HumicaHHA_Do\Humica\obj\Debug\Humica.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Azure.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Azure.Identity.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Charts.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.CodeParser.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Dashboard.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Dashboard.v23.2.Web.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Data.Desktop.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Data.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.DataAccess.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Docs.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Drawing.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Office.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Pdf.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.PivotGrid.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Printing.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.RichEdit.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.RichEdit.v23.2.Export.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Sparkline.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxThemes.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.Mvc5.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Xpo.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraCharts.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraGauges.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraReports.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\EntityFramework.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\EntityFramework.SqlServer.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\FirebaseAdmin.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Api.Gax.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Api.Gax.Rest.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Apis.Auth.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Apis.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Apis.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Hangfire.AspNet.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Hangfire.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Hangfire.SqlServer.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Attendance.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.ControllerHost.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.EF.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Employee.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Integration.EF.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.License.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Logic.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Performance.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Service.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Training.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Web.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Integration.API.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Data.SqlClient.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Identity.Client.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Abstractions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Logging.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Protocols.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Tokens.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.Security.Cookies.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.Security.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Web.Infrastructure.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\N.EntityFramework.Extensions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Newtonsoft.Json.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Owin.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Quartz.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Buffers.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.ClientModel.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.CodeDom.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Collections.Immutable.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Configuration.ConfigurationManager.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Diagnostics.DiagnosticSource.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.IO.FileSystem.AccessControl.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Memory.Data.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Memory.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Numerics.Vectors.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Security.AccessControl.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Security.Cryptography.ProtectedData.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Security.Permissions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Security.Principal.Windows.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Text.Encodings.Web.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Text.Json.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Threading.Tasks.Extensions.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.ValueTuple.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.Helpers.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.Mvc.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.Razor.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.WebPages.Deployment.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.WebPages.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.WebPages.Razor.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.TelegramSharp.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Notification.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Calculate.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Map.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraTreeMap.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.TreeMap.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.DataVisualization.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Snap.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Pdf.v23.2.Drawing.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraCharts.v23.2.Web.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraReports.v23.2.Web.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.SpellChecker.v23.2.Core.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.Resources.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\RestSharp.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Images.v23.2.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Attendance.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Attendance.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.ControllerHost.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.ControllerHost.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Core.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Core.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Logic.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Logic.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Performance.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Performance.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Employee.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Employee.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Service.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Service.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Training.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Training.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Integration.API.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Integration.API.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Azure.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Azure.Identity.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Charts.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Dashboard.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Dashboard.v23.2.Web.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Dashboard.v23.2.Web.Mvc5.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Data.Desktop.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Data.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.DataAccess.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Docs.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Drawing.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Office.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Pdf.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.PivotGrid.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Printing.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.RichEdit.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Sparkline.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Spreadsheet.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.Mvc5.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Xpo.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraCharts.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraGauges.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraReports.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraReports.v23.2.Web.WebForms.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\EntityFramework.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\EntityFramework.SqlServer.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\FirebaseAdmin.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Api.Gax.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Api.Gax.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Api.Gax.Rest.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Api.Gax.Rest.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Apis.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Apis.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Apis.Auth.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Apis.Auth.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Apis.Core.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Google.Apis.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Hangfire.AspNet.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Hangfire.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Hangfire.SqlServer.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Data.SqlClient.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Identity.Client.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Abstractions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Logging.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Protocols.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Tokens.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Newtonsoft.Json.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Quartz.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Buffers.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.ClientModel.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.CodeDom.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Collections.Immutable.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Configuration.ConfigurationManager.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Diagnostics.DiagnosticSource.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.IO.FileSystem.AccessControl.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Memory.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Memory.Data.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Numerics.Vectors.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Security.AccessControl.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Security.Cryptography.ProtectedData.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Security.Permissions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Security.Principal.Windows.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Text.Encodings.Web.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Text.Json.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Threading.Tasks.Extensions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.ValueTuple.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.Helpers.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.Mvc.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.Razor.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.WebPages.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.WebPages.Deployment.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\System.Web.WebPages.Razor.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.Security.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.Security.Cookies.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Calculate.pdb
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\Humica.Calculate.dll.config
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Map.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraTreeMap.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.TreeMap.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Dashboard.v23.2.Web.WebForms.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Snap.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Pdf.v23.2.Drawing.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxHtmlEditor.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxDiagram.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraCharts.v23.2.Web.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxGantt.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxTreeList.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxSpellChecker.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxPivotGrid.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraReports.v23.2.Web.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxRichEdit.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxScheduler.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.Desktop.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.XtraScheduler.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.SpellChecker.v23.2.Core.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\DevExpress.Web.ASPxSpreadsheet.v23.2.xml
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\ca\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\de\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\es\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\fa\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\fr\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\nb\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\nl\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\pt\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\pt-BR\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\pt-PT\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\sv\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\tr-TR\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\zh\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\zh-TW\Hangfire.Core.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.csproj.AssemblyReference.cache
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpEvaluate.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptEmpKPI.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Appraisal.RptFromAppraisal.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetStaffReturnD.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTAssetTransfer.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpAsset.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Asset.RPTMasterAsset.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RPTEmpAttendanceDept.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Attendance.RPTEmpAttendanceSeparate.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptEmpOT.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RPTEmpSumAttend.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RptMissScan.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttByDate.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptMonthlyAttendance.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RPTSummaryAttendance.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Attendance.RPT_EmpInOut.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.FRMEOBAnnounce.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\FRMHealthCheckUp.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.EOB.FRM_ConfirmAlert.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DessRequest.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressDeduct.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressReturn.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.FRM_DressTransfer.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.RPTBackCard.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\RPTComplain.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptDeclareIn.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptDeclareOut.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.RPTDelegate_rule.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.rptDisciplineLetter.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptEducation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptEmpCareer.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptEmpContract.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptEmpContractLetter.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptEmpContractProbation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpInsurance.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.RptEmployeeContact.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptEmployeeContract.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptEmpTShirt.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.RptFamily.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.RPTFrontCard.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.RptHeadCount.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptListing.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptListingEmployee.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.RptNewJoin.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.RptProbation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptResignListing.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffDeposit.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.HRM.RptStaffMovement.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.Rpt_Card.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeAction.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.HRM.EmployeeConcern.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.HRM.FollowUpForm.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.HRM.ManagementGuideLineForm.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.KPI.RPTSumEmployeeKPI.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.KPI.RPTAppraisal.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIAssign.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.KPI.RptKPIEmpByTeam.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIEvaluation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIIndicator.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPIPlanDepartment.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.KPI.RptKPITracking.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.RptKPITrackingStatistic.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.KPI.RPTTimeSheet.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RPTLeaveEntitled.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptLeaveTaken.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_RequestOT.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptAllowance.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptAnalysis.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAFPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankABAReport.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcleda.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankAcledaFPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPu.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCamPuFPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankCamPuV1.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCashReport.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankCU.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrince.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTBankPrinceFPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBankWin.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptBouns.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPTCompareDetails.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptDeduction.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEForm.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptEmpLoan.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptEmpTaxDetails.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptFringeBenefit.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTJournalReport.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLeaveDeduction.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptLoanSummary.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTManPower.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyCompare.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyFirstPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptMonthlyPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\RptMonthlyReport.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RptMonthlySeverancePay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTNSSFLatter.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFList.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptNSSFSummary.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTOvertime.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPayHistory.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlip.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlip1.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptPaySlipByEmp.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RPTPaySlipOld.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\DBProcess.Models.HR.RPTProfessionFee.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptSummaryPay.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.Payroll.RptTaxSummary.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.RPT_EfillingTax.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.Payroll.FRM_increse_salary.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.HRM.FRM_probation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.RCM.FRMCandidateEvaluation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.FRMERecruitment.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.FRMGuideRecruitment.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.FRMInterviewChklstTakeNote.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.HRM.FRMRequest.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTApplicant.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.RCM.RPTRecruitmentRequest.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\HUMICA.Models.Report.RptQRCodeLocation.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.RptResuestPayment.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Rpt_PurchaseRequestForm.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\RPT_PURCHASE_ORDER.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Models.Report.XtraReport1.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.Properties.Resources.resources
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.csproj.GenerateResource.cache
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.dll.licenses
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.csproj.CoreCompileInputs.cache
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.csproj.Up2Date
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.dll
+D:\PROJECT DEVELOPMENT\HumicaHHAPush\Humica\obj\Debug\Humica.pdb

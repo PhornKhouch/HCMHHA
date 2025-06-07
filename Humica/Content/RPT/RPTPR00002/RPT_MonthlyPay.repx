@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="21.2.5.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="RptPayroll" DisplayName="RptPayroll" Margins="22, 22, 22, 22" PaperKind="Custom" PageWidth="2917" PageHeight="1100" Version="21.2" DataMember="HR_RPT_MonthlyPay" DataSource="#Ref-0" TextAlignment="TopRight" Font="Arial, 9.75pt">
+  <Parameters>
+    <Item1 Ref="3" Name="Company" />
+    <Item2 Ref="4" Name="Branch" />
+    <Item3 Ref="5" Name="Division" />
+    <Item4 Ref="6" Name="Department" />
+    <Item5 Ref="7" Name="Section" />
+    <Item6 Ref="8" Name="Position" />
+    <Item7 Ref="9" Name="Level" />
+    <Item8 Ref="11" ValueInfo="2025-01-17" Name="InMonth" Type="#Ref-10" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="12" ControlType="TopMarginBand" Name="TopMargin" HeightF="22" />
+    <Item2 Ref="13" ControlType="DetailBand" Name="Detail" HeightF="22.5">
+      <Controls>
+        <Item1 Ref="14" ControlType="XRTable" Name="table2" SizeF="2871.667,22.5" LocationFloat="0,0" Font="Arial, 9pt" Padding="2,2,0,0,96" Borders="Left, Bottom">
+          <Rows>
+            <Item1 Ref="15" ControlType="XRTableRow" Name="tableRow3" Weight="1">
+              <Cells>
+                <Item1 Ref="16" ControlType="XRTableCell" Name="tableCell7" Weight="0.40833328247070311" Multiline="true" TextAlignment="MiddleCenter">
+                  <Summary Ref="17" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="18" EventName="BeforePrint" PropertyName="Text" Expression="sumRecordNumber()" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="19" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="20" ControlType="XRTableCell" Name="tableCell8" Weight="0.8666667175292968" Multiline="true" TextAlignment="MiddleCenter">
+                  <ExpressionBindings>
+                    <Item1 Ref="21" EventName="BeforePrint" PropertyName="Text" Expression="[EmpCode]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="22" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="23" ControlType="XRTableCell" Name="tableCell9" Weight="1.2583338928222656" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="24" EventName="BeforePrint" PropertyName="Text" Expression="[Employee]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="25" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="26" ControlType="XRTableCell" Name="tableCell12" Weight="1.2583335876464843" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="27" EventName="BeforePrint" PropertyName="Text" Expression="[EmployeeKH]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="28" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="29" ControlType="XRTableCell" Name="tableCell15" Weight="0.56666687011718742" Multiline="true" TextAlignment="MiddleCenter">
+                  <ExpressionBindings>
+                    <Item1 Ref="30" EventName="BeforePrint" PropertyName="Text" Expression="[Sex]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="31" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="32" ControlType="XRTableCell" Name="tableCell19" Weight="1.9466670227050782" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="33" EventName="BeforePrint" PropertyName="Text" Expression="[Position]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="34" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="35" ControlType="XRTableCell" Name="tableCell16" Weight="0.85166505936251524" TextFormatString="{0:dd-MMM-yyyy}" Multiline="true" TextAlignment="MiddleCenter">
+                  <ExpressionBindings>
+                    <Item1 Ref="36" EventName="BeforePrint" PropertyName="Text" Expression="[StartDate]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="37" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="38" ControlType="XRTableCell" Name="tableCell24" Weight="0.83375107256094183" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="39" EventName="BeforePrint" PropertyName="Text" Expression="[BasicSalary]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="40" UseTextAlignment="false" />
+                </Item8>
+                <Item9 Ref="41" ControlType="XRTableCell" Name="tableCell29" Weight="0.67520859430923741" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="42" EventName="BeforePrint" PropertyName="Text" Expression="[DeductionPermonth]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="43" UseTextAlignment="false" />
+                </Item9>
+                <Item10 Ref="44" ControlType="XRTableCell" Name="tableCell30" Weight="0.67520859430923741" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="45" EventName="BeforePrint" PropertyName="Text" Expression="[OTPermonth]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="46" UseTextAlignment="false" />
+                </Item10>
+                <Item11 Ref="47" ControlType="XRTableCell" Name="tableCell31" Weight="0.90041671241782872" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="48" EventName="BeforePrint" PropertyName="Text" Expression="[SeniorityBonus]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="49" UseTextAlignment="false" />
+                </Item11>
+                <Item12 Ref="50" ControlType="XRTableCell" Name="tableCell35" Weight="0.69187366973855391" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="51" EventName="BeforePrint" PropertyName="Text" Expression="[AllowancePermonth]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="52" UseTextAlignment="false" />
+                </Item12>
+                <Item13 Ref="53" ControlType="XRTableCell" Name="tableCell36" Weight="0.94103987922100352" Multiline="true" TextAlignment="MiddleRight">
+                  <StylePriority Ref="54" UseTextAlignment="false" />
+                </Item13>
+                <Item14 Ref="55" ControlType="XRTableCell" Name="tableCell37" Weight="0.68270864761521455" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="56" EventName="BeforePrint" PropertyName="Text" Expression="[GrossPay]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="57" UseTextAlignment="false" />
+                </Item14>
+                <Item15 Ref="58" ControlType="XRTableCell" Name="tableCell41" Weight="0.90979112255739925" TextFormatString="{0:#,#.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="59" EventName="BeforePrint" PropertyName="Text" Expression="[GrossPay]*[ExchRate]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="60" UseTextAlignment="false" />
+                </Item15>
+                <Item16 Ref="61" ControlType="XRTableCell" Name="tableCell42" Weight="0.50229608072787724" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="62" EventName="BeforePrint" PropertyName="Text" Expression="[Spouse]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="63" UseTextAlignment="false" />
+                </Item16>
+                <Item17 Ref="64" ControlType="XRTableCell" Name="tableCell48" Weight="0.55902213757643171" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="65" EventName="BeforePrint" PropertyName="Text" Expression="[Child]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="66" UseTextAlignment="false" />
+                </Item17>
+                <Item18 Ref="67" ControlType="XRTableCell" Name="tableCell49" Weight="0.87806261399215568" TextFormatString="{0:N2}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="68" EventName="BeforePrint" PropertyName="Text" Expression="(150000*[Spouse])+(150000*[Child])" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="69" UseTextAlignment="false" />
+                </Item18>
+                <Item19 Ref="70" ControlType="XRTableCell" Name="tableCell45" Weight="0.75979848118231041" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="71" EventName="BeforePrint" PropertyName="Text" Expression="[TaxSalary]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="72" UseTextAlignment="false" />
+                </Item19>
+                <Item20 Ref="73" ControlType="XRTableCell" Name="tableCell54" Weight="0.49312860125745372" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="74" EventName="BeforePrint" PropertyName="Text" Expression="[TAXRATE]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="75" UseTextAlignment="false" />
+                </Item20>
+                <Item21 Ref="76" ControlType="XRTableCell" Name="tableCell55" Weight="0.99312545580262057" Multiline="true" TextAlignment="MiddleRight">
+                  <StylePriority Ref="77" UseTextAlignment="false" />
+                </Item21>
+                <Item22 Ref="78" ControlType="XRTableCell" Name="tableCell61" Weight="0.724998148867512" Multiline="true" TextAlignment="MiddleRight">
+                  <StylePriority Ref="79" UseTextAlignment="false" />
+                </Item22>
+                <Item23 Ref="80" ControlType="XRTableCell" Name="tableCell62" Weight="0.72625240189919227" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="81" EventName="BeforePrint" PropertyName="Text" Expression="[Seniority]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="82" UseTextAlignment="false" />
+                </Item23>
+                <Item24 Ref="83" ControlType="XRTableCell" Name="tableCell68" Weight="0.78488877033871529" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="84" EventName="BeforePrint" PropertyName="Text" Expression="[StaffPensionFundAmount]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="85" UseTextAlignment="false" />
+                </Item24>
+                <Item25 Ref="86" ControlType="XRTableCell" Name="tableCell69" Weight="0.82235705051805552" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="87" EventName="BeforePrint" PropertyName="Text" Expression="[NSSFRate]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="88" UseTextAlignment="false" />
+                </Item25>
+                <Item26 Ref="89" ControlType="XRTableCell" Name="tableCell70" Weight="0.87401844672634021" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="90" EventName="BeforePrint" PropertyName="Text" Expression="[Adjusted]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="91" UseTextAlignment="false" />
+                </Item26>
+                <Item27 Ref="92" ControlType="XRTableCell" Name="tableCell71" Weight="0.78645003708294858" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="93" EventName="BeforePrint" PropertyName="Text" Expression="[NetWage]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="94" UseTextAlignment="false" />
+                </Item27>
+                <Item28 Ref="95" ControlType="XRTableCell" Name="tableCell72" Weight="0.613254273500113" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="96" EventName="BeforePrint" PropertyName="Text" Expression="[LOAN]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="97" UseTextAlignment="false" />
+                </Item28>
+                <Item29 Ref="98" ControlType="XRTableCell" Name="tableCell74" Weight="0.61325675305295435" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="99" EventName="BeforePrint" PropertyName="Text" Expression="[StaffPensionFundAmount]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="100" UseTextAlignment="false" />
+                </Item29>
+                <Item30 Ref="101" ControlType="XRTableCell" Name="tableCell79" Weight="0.7782873938589564" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="102" EventName="BeforePrint" PropertyName="Text" Expression="[NetWage]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="103" UseTextAlignment="false" />
+                </Item30>
+                <Item31 Ref="104" ControlType="XRTableCell" Name="tableCell80" Weight="0.89831532359395383" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="105" EventName="BeforePrint" PropertyName="Text" Expression="[BankName]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="106" UseTextAlignment="false" />
+                </Item31>
+                <Item32 Ref="107" ControlType="XRTableCell" Name="tableCell81" Weight="0.87415283335504945" Multiline="true" TextAlignment="MiddleCenter">
+                  <ExpressionBindings>
+                    <Item1 Ref="108" EventName="BeforePrint" PropertyName="Text" Expression="[BankBranch]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="109" UseTextAlignment="false" />
+                </Item32>
+                <Item33 Ref="110" ControlType="XRTableCell" Name="tableCell86" Weight="1.465822508404304" Multiline="true" TextAlignment="MiddleLeft">
+                  <ExpressionBindings>
+                    <Item1 Ref="111" EventName="BeforePrint" PropertyName="Text" Expression="[BankAccName]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="112" UseTextAlignment="false" />
+                </Item33>
+                <Item34 Ref="113" ControlType="XRTableCell" Name="tableCell89" Weight="1.1025134670054475" Multiline="true" TextAlignment="MiddleCenter" Borders="Left, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="114" EventName="BeforePrint" PropertyName="Text" Expression="[BankAcc]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="115" UseBorders="false" UseTextAlignment="false" />
+                </Item34>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="116" UseFont="false" UseBorders="false" />
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="117" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="22" />
+    <Item4 Ref="118" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="87.49333">
+      <Controls>
+        <Item1 Ref="119" ControlType="XRLabel" Name="label6" Multiline="true" TextAlignment="MiddleLeft" SizeF="159.166687,23" LocationFloat="359.1667,64.4933243" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="120" EventName="BeforePrint" PropertyName="Text" Expression="[ExchRate]" />
+          </ExpressionBindings>
+          <StylePriority Ref="121" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="122" ControlType="XRLabel" Name="label5" Multiline="true" Text="Exchange Rate :   1$     =" TextAlignment="MiddleLeft" SizeF="159.166687,23" LocationFloat="200,64.4933243" Padding="2,2,0,0,100">
+          <StylePriority Ref="123" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="124" ControlType="XRLabel" Name="label4" TextFormatString="{0:MMM,yyyy}" Multiline="true" TextAlignment="MiddleLeft" SizeF="187.567261,29.8299923" LocationFloat="1473.63135,29.8299923" Font="Khmer Moul, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="125" EventName="BeforePrint" PropertyName="Text" Expression="[DateMonth]" />
+          </ExpressionBindings>
+          <StylePriority Ref="126" UseFont="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="127" ControlType="XRLabel" Name="label2" Multiline="true" TextAlignment="MiddleLeft" SizeF="187.567261,29.8299923" LocationFloat="1473.63135,0" Font="Khmer Moul, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="128" EventName="BeforePrint" PropertyName="Text" Expression="[MonthYearKH]" />
+          </ExpressionBindings>
+          <StylePriority Ref="129" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="130" ControlType="XRPictureBox" Name="pictureBox1" Sizing="ZoomImage" SizeF="200,59.6599846" LocationFloat="0,0">
+          <ExpressionBindings>
+            <Item1 Ref="131" EventName="BeforePrint" PropertyName="ImageUrl" Expression="[Com_Image]" />
+          </ExpressionBindings>
+        </Item5>
+        <Item6 Ref="132" ControlType="XRLabel" Name="label1" Multiline="true" Text="បញ្ជីប្រាក់បៀវត្សរ៍សំរាប់បុគ្គលិកប្រចាំ" TextAlignment="MiddleLeft" SizeF="245.83,29.83" LocationFloat="1227.80151,0" Font="Khmer Moul, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="133" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="134" ControlType="XRLabel" Name="label3" Multiline="true" Text="Staff  Salary List for " TextAlignment="MiddleLeft" SizeF="194.09436,29.8299923" LocationFloat="1279.53711,29.8299923" Font="Khmer Moul, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="135" UseFont="false" UseTextAlignment="false" />
+        </Item7>
+      </Controls>
+    </Item4>
+    <Item5 Ref="136" ControlType="PageHeaderBand" Name="PageHeader" HeightF="45">
+      <Controls>
+        <Item1 Ref="137" ControlType="XRTable" Name="table1" TextAlignment="MiddleLeft" SizeF="2871.667,45" LocationFloat="0,0" Font="Arial, 9pt, style=Bold" BackColor="Gainsboro" Padding="2,2,0,0,96" Borders="Left, Bottom">
+          <Rows>
+            <Item1 Ref="138" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="139" ControlType="XRTableCell" Name="tableCell1" Weight="0.40833328247070311" RowSpan="2" Multiline="true" Text="No." TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="140" UseBorders="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="141" ControlType="XRTableCell" Name="tableCell2" Weight="0.8666667175292968" RowSpan="2" Multiline="true" Text="Employee ID" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="142" UseBorders="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="143" ControlType="XRTableCell" Name="tableCell3" Weight="1.2583338928222656" RowSpan="2" Multiline="true" Text="First Name" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="144" UseBorders="false" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="145" ControlType="XRTableCell" Name="tableCell10" Weight="1.2583341979980474" RowSpan="2" Multiline="true" Text="Khmer First Name" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="146" UseBorders="false" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="147" ControlType="XRTableCell" Name="tableCell13" Weight="0.56666625976562512" RowSpan="2" Multiline="true" Text="Gender" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="148" UseBorders="false" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="149" ControlType="XRTableCell" Name="tableCell17" Weight="1.9466656061594418" RowSpan="2" Multiline="true" Text="Position" TextAlignment="MiddleCenter" Font="Arial, 9pt, style=Bold" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="150" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="151" ControlType="XRTableCell" Name="tableCell20" Weight="0.85166685426504241" RowSpan="2" Multiline="true" Text="Start Date" TextAlignment="MiddleCenter" Font="Arial, 9pt, style=Bold" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="152" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="153" ControlType="XRTableCell" Name="tableCell22" Weight="4.7175004901391624" Multiline="true" Text="Monthly Paid" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="154" UseBorders="false" UseTextAlignment="false" />
+                </Item8>
+                <Item9 Ref="155" ControlType="XRTableCell" Name="tableCell25" Weight="1.5925001169384991" Multiline="true" Text="Total" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="156" UseBorders="false" UseTextAlignment="false" />
+                </Item9>
+                <Item10 Ref="157" ControlType="XRTableCell" Name="tableCell38" Weight="1.9393800704766753" Multiline="true" Text="Allowance" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="158" UseBorders="false" UseTextAlignment="false" />
+                </Item10>
+                <Item11 Ref="159" ControlType="XRTableCell" Name="tableCell43" Weight="0.75980110429872572" RowSpan="2" Multiline="true" Text="Salary Tax Calculation" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="160" UseBorders="false" UseTextAlignment="false" />
+                </Item11>
+                <Item12 Ref="161" ControlType="XRTableCell" Name="tableCell50" Weight="0.49312625403469684" RowSpan="2" Multiline="true" Text="Tax Rate" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="162" UseBorders="false" UseTextAlignment="false" />
+                </Item12>
+                <Item13 Ref="163" ControlType="XRTableCell" Name="tableCell52" Weight="1.7181267551953563" Multiline="true" Text="Tax Withholding " TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="164" UseBorders="false" UseTextAlignment="false" />
+                </Item13>
+                <Item14 Ref="165" ControlType="XRTableCell" Name="tableCell56" Weight="3.2075029119382457" Multiline="true" Text="Other Compensations and Benefits" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="166" UseBorders="false" UseTextAlignment="false" />
+                </Item14>
+                <Item15 Ref="167" ControlType="XRTableCell" Name="tableCell65" Weight="0.78646493181343569" RowSpan="2" Multiline="true" Text="Net Salary" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="168" UseBorders="false" UseTextAlignment="false" />
+                </Item15>
+                <Item16 Ref="169" ControlType="XRTableCell" Name="tableCell63" Weight="1.226511310828672" Multiline="true" Text="Deduction" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="170" UseBorders="false" UseTextAlignment="false" />
+                </Item16>
+                <Item17 Ref="171" ControlType="XRTableCell" Name="tableCell75" Weight="0.778287457529641" RowSpan="2" Multiline="true" Text="Total Salary" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="172" UseBorders="false" UseTextAlignment="false" />
+                </Item17>
+                <Item18 Ref="173" ControlType="XRTableCell" Name="tableCell77" Weight="0.89831551838300683" RowSpan="2" Multiline="true" Text="Bank Name" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="174" UseBorders="false" UseTextAlignment="false" />
+                </Item18>
+                <Item19 Ref="175" ControlType="XRTableCell" Name="tableCell82" Weight="0.87414081721300319" RowSpan="2" Multiline="true" Text="Bank Branch" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="176" UseBorders="false" UseTextAlignment="false" />
+                </Item19>
+                <Item20 Ref="177" ControlType="XRTableCell" Name="tableCell85" Weight="1.4658277758515759" RowSpan="2" Multiline="true" Text="Bank Account Name" TextAlignment="MiddleCenter" Borders="Left, Top, Bottom">
+                  <StylePriority Ref="178" UseBorders="false" UseTextAlignment="false" />
+                </Item20>
+                <Item21 Ref="179" ControlType="XRTableCell" Name="tableCell87" Weight="1.1025206238996688" RowSpan="2" Multiline="true" Text="Bank Account" TextAlignment="MiddleCenter" Borders="All">
+                  <StylePriority Ref="180" UseBorders="false" UseTextAlignment="false" />
+                </Item21>
+              </Cells>
+            </Item1>
+            <Item2 Ref="181" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+              <Cells>
+                <Item1 Ref="182" ControlType="XRTableCell" Name="tableCell4" Weight="0.40833328247070311" Multiline="true" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="183" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="184" ControlType="XRTableCell" Name="tableCell5" Weight="0.86666671752929692" Multiline="true" Text="tableCell5" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="185" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="186" ControlType="XRTableCell" Name="tableCell6" Weight="1.2583338928222656" Multiline="true" Text="tableCell6" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="187" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="188" ControlType="XRTableCell" Name="tableCell11" Weight="1.2583341979980474" Multiline="true" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="189" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="190" ControlType="XRTableCell" Name="tableCell14" Weight="0.56666625976562512" Multiline="true" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="191" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="192" ControlType="XRTableCell" Name="tableCell18" Weight="1.9466656061594418" Multiline="true" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="193" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="194" ControlType="XRTableCell" Name="tableCell21" Weight="0.85166685426504241" Multiline="true" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="195" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="196" ControlType="XRTableCell" Name="tableCell23" Weight="0.833750500625222" Multiline="true" Text="Basic Salary" TextAlignment="MiddleCenter" Font="Arial, 9pt, style=Bold">
+                  <StylePriority Ref="197" UseFont="false" UseTextAlignment="false" />
+                </Item8>
+                <Item9 Ref="198" ControlType="XRTableCell" Name="tableCell27" Weight="0.67520867310879173" Multiline="true" Text="Deduction" TextAlignment="MiddleCenter" Font="Arial, 9pt, style=Bold">
+                  <StylePriority Ref="199" UseFont="false" UseTextAlignment="false" />
+                </Item9>
+                <Item10 Ref="200" ControlType="XRTableCell" Name="tableCell28" Weight="0.67520928346032516" Multiline="true" Text="Over Time" TextAlignment="MiddleCenter" Font="Arial, 9pt, style=Bold">
+                  <StylePriority Ref="201" UseFont="false" UseTextAlignment="false" />
+                </Item10>
+                <Item11 Ref="202" ControlType="XRTableCell" Name="tableCell26" Weight="0.90041675722637393" Multiline="true" Text="Seniority &gt;1K" TextAlignment="MiddleCenter" Font="Arial, 9pt, style=Bold">
+                  <StylePriority Ref="203" UseFont="false" UseTextAlignment="false" />
+                </Item11>
+                <Item12 Ref="204" ControlType="XRTableCell" Name="tableCell32" Weight="0.69187512017201358" Multiline="true" Text="Bonus&#xD;&#xA;/incentive" TextAlignment="MiddleCenter" Font="Arial, 9pt, style=Bold">
+                  <StylePriority Ref="205" UseFont="false" UseTextAlignment="false" />
+                </Item12>
+                <Item13 Ref="206" ControlType="XRTableCell" Name="tableCell33" Weight="0.94104008412065765" Multiline="true" Text="Compensation" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="207" UseTextAlignment="false" />
+                </Item13>
+                <Item14 Ref="208" ControlType="XRTableCell" Name="tableCell34" Weight="0.6827039726108356" Multiline="true" Text="Gross " TextAlignment="MiddleCenter">
+                  <StylePriority Ref="209" UseTextAlignment="false" />
+                </Item14>
+                <Item15 Ref="210" ControlType="XRTableCell" Name="tableCell40" Weight="0.90979627558868859" Multiline="true" Text="In Riels" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="211" UseTextAlignment="false" />
+                </Item15>
+                <Item16 Ref="212" ControlType="XRTableCell" Name="tableCell39" Weight="0.50229134223966376" Multiline="true" Text="Spouse" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="213" UseTextAlignment="false" />
+                </Item16>
+                <Item17 Ref="214" ControlType="XRTableCell" Name="tableCell47" Weight="0.55902354941444987" Multiline="true" Text="Minor" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="215" UseTextAlignment="false" />
+                </Item17>
+                <Item18 Ref="216" ControlType="XRTableCell" Name="tableCell46" Weight="0.87806409270305785" Multiline="true" Text="In Riels" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="217" UseTextAlignment="false" />
+                </Item18>
+                <Item19 Ref="218" ControlType="XRTableCell" Name="tableCell44" Weight="0.75980112642378828" Multiline="true" Text="tableCell44" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="219" UseTextAlignment="false" />
+                </Item19>
+                <Item20 Ref="220" ControlType="XRTableCell" Name="tableCell51" Weight="0.49312631393740269" Multiline="true" Text="tableCell51" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="221" UseTextAlignment="false" />
+                </Item20>
+                <Item21 Ref="222" ControlType="XRTableCell" Name="tableCell53" Weight="0.9931314026134016" Multiline="true" Text="In Riels" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="223" UseTextAlignment="false" />
+                </Item21>
+                <Item22 Ref="224" ControlType="XRTableCell" Name="tableCell60" Weight="0.72499564634030556" Multiline="true" Text="In $" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="225" UseTextAlignment="false" />
+                </Item22>
+                <Item23 Ref="226" ControlType="XRTableCell" Name="tableCell57" Weight="0.72624523736859437" Multiline="true" Text="Seniority $" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="227" UseTextAlignment="false" />
+                </Item23>
+                <Item24 Ref="228" ControlType="XRTableCell" Name="tableCell59" Weight="0.784902472534359" Multiline="true" Text="Emp'r Pension " TextAlignment="MiddleCenter">
+                  <StylePriority Ref="229" UseTextAlignment="false" />
+                </Item24>
+                <Item25 Ref="230" ControlType="XRTableCell" Name="tableCell64" Weight="0.822346318127864" Multiline="true" Text="NSSF in &#xD;&#xA;Riels" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="231" UseTextAlignment="false" />
+                </Item25>
+                <Item26 Ref="232" ControlType="XRTableCell" Name="tableCell58" Weight="0.87400893454367834" Multiline="true" Text="Adjusment" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="233" UseTextAlignment="false" />
+                </Item26>
+                <Item27 Ref="234" ControlType="XRTableCell" Name="tableCell66" Weight="0.78646496691898693" Multiline="true" Text="tableCell66" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="235" UseTextAlignment="false" />
+                </Item27>
+                <Item28 Ref="236" ControlType="XRTableCell" Name="tableCell67" Weight="0.61324228687510474" Multiline="true" Text="Advance&#xD;&#xA;/Loan" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="237" UseTextAlignment="false" />
+                </Item28>
+                <Item29 Ref="238" ControlType="XRTableCell" Name="tableCell73" Weight="0.61325938402326208" Multiline="true" Text="Emp'e Pension " TextAlignment="MiddleCenter">
+                  <StylePriority Ref="239" UseTextAlignment="false" />
+                </Item29>
+                <Item30 Ref="240" ControlType="XRTableCell" Name="tableCell76" Weight="0.77829348750147176" Multiline="true" Text="tableCell76" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="241" UseTextAlignment="false" />
+                </Item30>
+                <Item31 Ref="242" ControlType="XRTableCell" Name="tableCell78" Weight="0.89831561539768445" Multiline="true" Text="tableCell78" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="243" UseTextAlignment="false" />
+                </Item31>
+                <Item32 Ref="244" ControlType="XRTableCell" Name="tableCell83" Weight="0.87414076207700631" Multiline="true" Text="tableCell83" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="245" UseTextAlignment="false" />
+                </Item32>
+                <Item33 Ref="246" ControlType="XRTableCell" Name="tableCell84" Weight="1.4658327712310197" Multiline="true" Text="tableCell84" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="247" UseTextAlignment="false" />
+                </Item33>
+                <Item34 Ref="248" ControlType="XRTableCell" Name="tableCell88" Weight="1.1025215530320611" Multiline="true" Text="tableCell88" TextAlignment="MiddleCenter">
+                  <StylePriority Ref="249" UseTextAlignment="false" />
+                </Item34>
+              </Cells>
+            </Item2>
+          </Rows>
+          <StylePriority Ref="250" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item5>
+    <Item6 Ref="251" ControlType="ReportFooterBand" Name="ReportFooter" HeightF="23">
+      <Controls>
+        <Item1 Ref="252" ControlType="XRLabel" Name="label8" TextFormatString="{0:$0.00}" Multiline="true" TextAlignment="MiddleRight" SizeF="77.82861,23" LocationFloat="2359.75757,0" Font="Arial, 9pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <Summary Ref="253" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="254" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([NetWage])" />
+          </ExpressionBindings>
+          <StylePriority Ref="255" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="256" ControlType="XRLabel" Name="label7" Multiline="true" Text="Sum Total" TextAlignment="MiddleCenter" SizeF="70.00003,23" LocationFloat="379.16684,0" Font="Arial, 9pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="257" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+      </Controls>
+    </Item6>
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IlJlcG9ydENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IlN0b3JlZFByb2NRdWVyeSIgTmFtZT0iSFJfUlBUX01vbnRobHlQYXkiPjxQYXJhbWV0ZXIgTmFtZT0iQENvbXBhbnkiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP0NvbXBhbnkpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJAQnJhbmNoIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcpKD9CcmFuY2gpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJARGl2aXNpb24iIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP0RpdmlzaW9uKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQERlcGFydG1lbnQiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP0RlcGFydG1lbnQpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJAU2VjdGlvbiIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKSg/U2VjdGlvbik8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBQb3NpdGlvbiIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKSg/UG9zaXRpb24pPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJATGV2ZWwiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP0xldmVsKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQEluTW9udGgiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkRhdGVUaW1lKSg/SW5Nb250aCk8L1BhcmFtZXRlcj48UHJvY05hbWU+SFJfUlBUX01vbnRobHlQYXk8L1Byb2NOYW1lPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMSI+PFZpZXcgTmFtZT0iSFJfUlBUX01vbnRobHlQYXkiPjxGaWVsZCBOYW1lPSJFbXBDb2RlIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlVUQVhTUCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVVRBWENIIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJUQVhSQVRFIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJUYXhTYWxhcnkiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkJvbnVzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJRENhcmRObyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJFbXBsb3llZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJFbXBsb3llZUtIIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlNleCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJTdGFydERhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJCYW5rQWNjTmFtZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEaXZpc2lvbkRlc2MiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGVwYXJ0bWVudCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJQb3NpdGlvbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJJTlllYXIiIFR5cGU9IkludDY0IiAvPjxGaWVsZCBOYW1lPSJJTk1vbnRoIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iU2FsYXJ5IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJBY3RXb3JrRGF5IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJPVDE1MCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT1QyMDAiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkxPQU4iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik9UQU0iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkFsbG93YW5jZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iTW9udGhZZWFyS0giIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iTmF0aW9uYWxpdHkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGF0ZU1vbnRoIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iU3BvdXNlIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iQmFzaWNTYWxhcnkiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik5TU0ZSYXRlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZW5pb3JpdHkiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNoaWxkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iRXhjaFJhdGUiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkJhbmtOYW1lIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkJhbmtCcmFuY2giIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iTGVhdmVEZWR1Y3QiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ikdyb3NzUGF5IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJUQVhBTSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iTmV0V2FnZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRW1wVHlwZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBRFZQYXkiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik1vbnRoS0giIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iWWVhcktIIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbV9JbWFnZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJCcmFuY2hEZXNjIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkJhc2VTYWxhcnkiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlYXNlZCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGVkdWN0aW9ucyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tX0FkZHJlc3MiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQmFua0FjYyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJGaXJzdFBheW1lbnRBbW91bnQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlN0YWZmUGVuc2lvbkZ1bmRBbW91bnQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkFtb3VudEZCIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZWR1Y3Rpb25QZXJtb250aCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT1RQZXJtb250aCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQWxsb3dhbmNlUGVybW9udGgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlbmlvcml0eUJvbnVzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJBZGp1c3RlZCIgVHlwZT0iRGVjaW1hbCIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.2" Ref="10" Content="System.DateTime" Type="System.Type" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

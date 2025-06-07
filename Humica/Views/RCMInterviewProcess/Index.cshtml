@@ -1,0 +1,110 @@
+﻿
+<script type="text/javascript">
+    var ss;
+    var selectedIDs = "";
+    $(document).ready(function () {
+        $('#_bthInterview').click(function () {
+            ss = 5;
+            _ListWaiting.GetRowValues(_ListWaiting.GetFocusedRowIndex(), 'TranNo;', OnGetRowValues);
+        });
+        $('#_btnPrint').click(function () {
+            ss = 6;
+            _ListWaiting.GetRowValues(_ListWaiting.GetFocusedRowIndex(), 'TranNo;', OnGetRowValues);
+        });
+        $('#_btnNext').click(function () {
+            ss = 7;
+            _ListInterview.GetRowValues(_ListInterview.GetFocusedRowIndex(), 'ApplicantID;', GetDate);
+        });
+        @{
+            ViewContext.Writer.Write("$('#_btnImageView').hide()");
+        }
+    })
+    function tabClick(s, e) {
+
+        index = s.GetActiveTab().index;
+        if (index == 0) {
+            $("#_bthInterview").show();
+            $("#_btnNext").hide();
+        }
+        else {
+            $("#_bthInterview").hide();
+            $("#_btnNext").show();
+        }
+    }
+    function GetDate(values) {
+        selectedIDs = values[0];
+        $.ajax({
+            type: 'post',
+            url: _baseUrl + '//HRM/RCM/RCMInterviewProcess/GetDate',
+            data: { 'Code': selectedIDs, 'Action': 'Create' },
+            success: function (data) {
+                AlertMessage("Next Step is Successed");
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                AlertMessage(XMLHttpRequest.responseText);
+            }
+        });
+    }
+    function DbRowClick(s, e) {
+        ss = 5;
+        s.GetRowValues(s.GetFocusedRowIndex(), 'ApplicantID;', OnGetRowValues);
+    }
+    function RowClick(s, e) {
+        ss = 6;
+        s.GetRowValues(s.GetFocusedRowIndex(), 'ApplicantID;', OnGetRowValues);
+    }
+    function OnGetRowValues(values) {
+        selectedIDs = values[0];
+         if (ss == 5) {
+             window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL].ToString()" + "Interview?TranNo=" + values[0] ;
+        }
+        if (ss == 6) {
+            window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "Print?TranNo="+ values[0];
+        }
+    }
+    function VACANCY_SE(s, e) {
+        cboApplyPosition.SetValue(s.GetSelectedItem().GetColumnText(1));
+    }
+
+</script>
+
+@model Humica.Logic.RCM.RCMPInterviewObject
+
+@Html.Partial("Filter", Model)
+
+@{
+    if (Model.ListWaiting != null)
+    {
+        if (Model.ListWaiting.Count > 0)
+        {
+            Html.DevExpress().PageControl(
+            settings =>
+            {
+                settings.Name = "pcScrollingMaterialCreate";
+                settings.Width = Unit.Percentage(100);
+                settings.EnableTabScrolling = true;
+                settings.TabAlign = TabAlign.Justify;
+                settings.Styles.Tab.CssClass = "scrolling_Tab";
+                settings.ClientSideEvents.ActiveTabChanged = "tabClick";
+                settings.ClientSideEvents.Init = "tabClick";
+                settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("Waiting List")).SetContent(() =>
+                {
+                    Html.RenderPartial("_ListWaiting", Model.ListWaiting);
+                });
+                settings.TabPages.Add(Humica.EF.Models.SY.SYSettings.getLabel("List Interview")).SetContent(() =>
+                {
+                    Html.RenderPartial("_ListInterview", Model.ListInterview);
+                });
+
+            }).Render();
+        }
+        else
+        {
+            Html.RenderPartial("_ListInterview", Model.ListInterview);
+        }
+    }
+    else
+    {
+        Html.RenderPartial("_ListInterview", Model.ListInterview);
+    }
+}

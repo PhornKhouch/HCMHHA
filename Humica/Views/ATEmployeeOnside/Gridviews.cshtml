@@ -1,0 +1,117 @@
+﻿@{
+    var grid = Html.DevExpress().GridView(
+    settings =>
+    {
+        Html.EnableClientValidation();
+        Html.EnableUnobtrusiveJavaScript();
+        settings.Name = "Gridviews";
+        settings.KeyFieldName = "TranNo";
+        settings.Width = Unit.Percentage(100);
+        settings.SettingsEditing.Mode = GridViewEditingMode.Inline;
+
+        settings.CallbackRouteValues = new { Controller = "ATEmployeeOnside", Action = "Gridviews" };
+
+        settings.SettingsBehavior.AllowFocusedRow = true;
+
+        settings.Columns.Add(column =>
+        {
+            column.Width = 125;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("EmpCode");
+            column.FieldName = "EmpCode";
+        });
+
+        settings.Columns.Add(column =>
+        {
+            column.Width = 160;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("ScanDate");
+            column.FieldName = "ScanDate";
+
+            column.ColumnType = MVCxGridViewColumnType.DateEdit;
+            column.PropertiesEdit.DisplayFormatString = "dd.MM.yyyy h:mm tt";
+        });
+
+        settings.Columns.Add(column =>
+        {
+            column.Width = 160;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Longitude");
+            column.FieldName = "Longitude";
+        });
+
+        settings.Columns.Add(column =>
+        {
+            column.Width = 160;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("latitude");
+            column.FieldName = "latitude";
+        });
+
+        
+
+        settings.Columns.Add(column =>
+        {
+            column.Width = 230;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Location");
+            column.FieldName = "Location";
+        });
+
+        settings.Columns.Add(column =>
+        {
+            column.Width = 140;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Remark");
+            column.FieldName = "Remark";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.Width = 120;
+            column.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Attachment");
+            column.FieldName = "Attachment";
+            column.SetDataItemTemplateContent(container =>
+             {
+                 var attachment = Convert.ToString(DataBinder.Eval(container.DataItem, "Attachment"));
+                 if (!string.IsNullOrEmpty(attachment))
+                 {
+                     string[] doc = attachment.Split(';');
+                     int i = 1;
+                     foreach (var r1 in doc)
+                     {
+                         if (!string.IsNullOrEmpty(r1))
+                         {
+                             Html.DevExpress().HyperLink(hyperlink =>
+                             {
+                                 hyperlink.Properties.Text = "View";
+                                 hyperlink.Properties.Target = "_BLANK";
+                                 hyperlink.NavigateUrl = r1;
+                             }).Render();
+                             ViewContext.Writer.Write("<br/>");
+                         }
+                         i++;
+                     }
+                 }
+             });
+        });
+        settings.SettingsSearchPanel.Visible = true;
+        settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Visible;
+        settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible;
+        settings.Settings.VerticalScrollableHeight = Humica.EF.MD.SYSession.PageHieigh;
+        settings.SettingsBehavior.ConfirmDelete = true;
+        settings.SettingsPager.PageSize = 520;
+        settings.SettingsDataSecurity.AllowReadUnlistedFieldsFromClientApi = DefaultBoolean.True;
+        settings.SettingsExport.ExcelExportMode = DevExpress.Export.ExportType.WYSIWYG;
+        settings.SettingsExport.EnableClientSideExportAPI = true;
+        settings.SettingsExport.FileName = "Employee On-Site";
+        settings.Toolbars.Add(t =>
+        {
+            t.Items.Add(GridViewToolbarCommand.ExportToXlsx);
+        });
+        settings.SettingsBehavior.AllowFocusedRow = true;
+        settings.Settings.ShowHeaderFilterButton = true;
+        settings.SettingsPopup.HeaderFilter.Height = 200;
+        settings.SettingsBehavior.AllowEllipsisInText = true;
+        settings.SettingsContextMenu.Enabled = true;
+        settings.CustomJSProperties = (sender, e) =>
+        {
+            e.Properties["cpVisibleRowCount"] = (sender as MVCxGridView).VisibleRowCount;
+        };
+
+    });
+}
+@grid.Bind(Model.ListEmpOnSite).GetHtml()
