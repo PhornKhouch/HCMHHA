@@ -1,4 +1,5 @@
-﻿using DevExpress.Web;
+﻿using DevExpress.Spreadsheet;
+using DevExpress.Web;
 using DevExpress.Web.Mvc;
 using Humica.Core.DB;
 using Humica.EF;
@@ -325,22 +326,66 @@ namespace Humica.Controllers.HRM.EmployeeInfo
             return Redirect(SYUrl.getBaseUrl() + URL_SCREEN + "Import");
         }
 
-        public ActionResult DownloadTemplate()
-        {
-            string fileName = Server.MapPath("~/Content/TEMPLATE/TemplateSalary.xlsx");
-            Response.Clear();
-            Response.Buffer = true;
-            Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
-            Response.AddHeader("content-disposition", "attachment;filename=TemplateSalary.xlsx");
-            Response.Cache.SetCacheability(HttpCacheability.NoCache);
-            Response.WriteFile(fileName);
-            Response.End();
-            return null;
-        }
+        //public ActionResult DownloadTemplate()
+        //{
+        //    string fileName = Server.MapPath("~/Content/TEMPLATE/TemplateSalary.xlsx");
+        //    Response.Clear();
+        //    Response.Buffer = true;
+        //    Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+        //    Response.AddHeader("content-disposition", "attachment;filename=TemplateSalary.xlsx");
+        //    Response.Cache.SetCacheability(HttpCacheability.NoCache);
+        //    Response.WriteFile(fileName);
+        //    Response.End();
+        //    return null;
+        //}
+		public ActionResult DownloadTemplate()
+		{
 
-        #endregion
+			// Get all active employees
+			var allEmployees = DB.HRStaffProfiles
+				.Where(e => e.Status == "A")
+				.Select(e => new
+				{
+					e.EmpCode,
+					e.AllName
+				}).ToList();
 
-        private void DataSelector()
+			using (var workbook = new DevExpress.Spreadsheet.Workbook())
+			{
+				workbook.Worksheets[0].Name = "Salary";
+				List<ExCFUploadMapping> _ListMaster = new List<ExCFUploadMapping>();
+				_ListMaster.Add(new ExCFUploadMapping { FieldName = "EmpCode" });
+				_ListMaster.Add(new ExCFUploadMapping { FieldName = "Employee Name" });
+				_ListMaster.Add(new ExCFUploadMapping { FieldName = "Salary" });
+				Worksheet worksheet = workbook.Worksheets[0];
+
+				List<ClsUploadMapping> _EmployeeData = new List<ClsUploadMapping>();
+				foreach (var emp in allEmployees)
+				{
+					_EmployeeData.Add(new ClsUploadMapping
+					{
+						FieldName = emp.EmpCode,
+						FieldName1 = emp.AllName,
+					});
+				}
+				// Export data to each sheet with header formatting
+				ClsConstant.ExportDataToWorksheet(worksheet, _ListMaster);
+				ClsConstant.ExportDataToWorksheetRow(worksheet, _EmployeeData);
+
+				// Save the workbook to a memory stream
+				using (var stream = new System.IO.MemoryStream())
+				{
+					workbook.SaveDocument(stream, DevExpress.Spreadsheet.DocumentFormat.Xlsx);
+					stream.Seek(0, System.IO.SeekOrigin.Begin);
+
+					return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "TemplateSalary.xlsx");
+				}
+			}
+			return null;
+		}
+		#endregion
+
+		private void DataSelector()
         {
             ViewData["STAFF_SELECT"] = DBV.HR_STAFF_VIEW.ToList();
             //ViewData["APPRTYPE_SELECT"] = DH.HRApprTypes.ToList();

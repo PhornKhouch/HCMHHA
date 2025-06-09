@@ -9,8 +9,35 @@
             window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]";
         });
 
-        $('#Download_TP').click(function () {
+        @*$('#Download_TP').click(function () {
             window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()"+"@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "/DownloadTemplate";
+        });*@
+
+        $('#Download_TP').click(function () {
+            PopTheLoading.Show();
+            $.ajax({
+                url: "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "DownloadTemplate",
+                xhrFields: {
+                    responseType: 'blob'
+                },
+                success: function(data) {
+                    var a = document.createElement('a');
+                    var url = window.URL.createObjectURL(data);
+                    a.href = url;
+                    a.download = 'OT_TEMPLATE.xlsx';
+                    document.body.appendChild(a);
+                    a.click();
+                    setTimeout(function() {
+                        document.body.removeChild(a);
+                        window.URL.revokeObjectURL(url);
+                        PopTheLoading.Hide();
+                    }, 100);
+                },
+                error: function() {
+                    PopTheLoading.Hide();
+                    alert('Download failed');
+                }
+            });
         });
 
         $('#_btnGenerateAction').click(function () {

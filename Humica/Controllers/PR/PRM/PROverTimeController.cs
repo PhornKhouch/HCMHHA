@@ -718,8 +718,15 @@ namespace HR.Controllers.PR.PRM
         public ActionResult DownloadTemplate()
         {
             var OTCode = DB.PROTRates.ToList();
-
-            using (var workbook = new DevExpress.Spreadsheet.Workbook())
+			// Get all active employees
+			var allEmployees = DB.HRStaffProfiles
+				.Where(e => e.Status == "A")
+				.Select(e => new
+				{
+					e.EmpCode,
+					e.AllName
+				}).ToList();
+			using (var workbook = new DevExpress.Spreadsheet.Workbook())
             {
                 // Ensure sheet names are unique
                 workbook.Worksheets[0].Name = "Master";
@@ -741,7 +748,16 @@ namespace HR.Controllers.PR.PRM
                 _ListMaster1.Add(new ExCFUploadMapping { Caption = "Description", FieldName = "Description" });
                 _ListMaster1.Add(new ExCFUploadMapping { Caption = "Remark", FieldName = "Remark" });
 
-                List<ClsUploadMapping> _ListData = new List<ClsUploadMapping>();
+				List<ClsUploadMapping> _EmployeeData = new List<ClsUploadMapping>();
+				foreach (var emp in allEmployees)
+				{
+					_EmployeeData.Add(new ClsUploadMapping
+					{
+						FieldName = emp.EmpCode,
+						FieldName1 = emp.AllName,
+					});
+				}
+				List<ClsUploadMapping> _ListData = new List<ClsUploadMapping>();
                 foreach (var read in OTCode)
                 {
                     _ListData.Add(new ClsUploadMapping
@@ -752,7 +768,8 @@ namespace HR.Controllers.PR.PRM
                 }
                 // Export data to each sheet with header formatting
                 ClsConstant.ExportDataToWorksheet(worksheet, _ListMaster);
-                ClsConstant.ExportDataToWorksheet(sheet2, _ListMaster1);
+				ClsConstant.ExportDataToWorksheetRow(worksheet, _EmployeeData);
+				ClsConstant.ExportDataToWorksheet(sheet2, _ListMaster1);
                 ClsConstant.ExportDataToWorksheetRow(sheet2, _ListData);
 
                 // Save the workbook to a memory stream

@@ -1,4 +1,5 @@
-﻿using DevExpress.Web;
+﻿using DevExpress.Spreadsheet;
+using DevExpress.Web;
 using DevExpress.Web.Mvc;
 using Humica.Core.DB;
 using Humica.EF;
@@ -385,21 +386,64 @@ namespace Humica.Controllers.Attendance.Attendance
             return Redirect(SYUrl.getBaseUrl() + URL_SCREEN + "Import");
         }
 
-        public ActionResult DownloadTemplate()
-        {
-            string fileName = Server.MapPath("~/Content/TEMPLATE/INOUT_TEMPLATE.xlsx");
-            Response.Clear();
-            Response.Buffer = true;
-            Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
-            Response.AddHeader("content-disposition", "attachment;filename=INOUT_TEMPLATE.xlsx");
-            Response.Cache.SetCacheability(HttpCacheability.NoCache);
-            Response.WriteFile(fileName);
-            Response.End();
-            return null;
-        }
+		//public ActionResult DownloadTemplate()
+		//{
+		//    string fileName = Server.MapPath("~/Content/TEMPLATE/INOUT_TEMPLATE.xlsx");
+		//    Response.Clear();
+		//    Response.Buffer = true;
+		//    Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+		//    Response.AddHeader("content-disposition", "attachment;filename=INOUT_TEMPLATE.xlsx");
+		//    Response.Cache.SetCacheability(HttpCacheability.NoCache);
+		//    Response.WriteFile(fileName);
+		//    Response.End();
+		//    return null;
+		//}
+		public ActionResult DownloadTemplate()
+		{
 
-        #endregion
-        [HttpPost]
+			// Get all active employees
+			var allEmployees = DB.HRStaffProfiles
+				.Where(e => e.Status == "A")
+				.Select(e => new
+				{
+					e.EmpCode
+				}).ToList();
+
+			using (var workbook = new DevExpress.Spreadsheet.Workbook())
+			{
+				workbook.Worksheets[0].Name = "Master";
+				List<ExCFUploadMapping> _ListMaster = new List<ExCFUploadMapping>();
+				_ListMaster.Add(new ExCFUploadMapping { FieldName = "EmpCode" });
+				_ListMaster.Add(new ExCFUploadMapping { FieldName = "CardNo" });
+				_ListMaster.Add(new ExCFUploadMapping { FieldName = "Scan Date" });
+				Worksheet worksheet = workbook.Worksheets[0];
+
+				List<ClsUploadMapping> _EmployeeData = new List<ClsUploadMapping>();
+				foreach (var emp in allEmployees)
+				{
+					_EmployeeData.Add(new ClsUploadMapping
+					{
+						FieldName = emp.EmpCode
+					});
+				}
+				// Export data to each sheet with header formatting
+				ClsConstant.ExportDataToWorksheet(worksheet, _ListMaster);
+				ClsConstant.ExportDataToWorksheetRow(worksheet, _EmployeeData);
+
+				// Save the workbook to a memory stream
+				using (var stream = new System.IO.MemoryStream())
+				{
+					workbook.SaveDocument(stream, DevExpress.Spreadsheet.DocumentFormat.Xlsx);
+					stream.Seek(0, System.IO.SeekOrigin.Begin);
+
+					return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "INOUT_TEMPLATE.xlsx");
+				}
+			}
+			return null;
+		}
+
+		#endregion
+		[HttpPost]
         public string getEmpCode(string EmpCode)
         {
             ActionName = "Index";

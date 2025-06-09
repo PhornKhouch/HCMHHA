@@ -10,8 +10,43 @@
             window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]";
         });
 
-        $('#Download_TP').click(function () {
+        @*$('#Download_TP').click(function () {
             window.location = "@Humica.EF.Models.SY.SYUrl.getBaseUrl()"+"@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "DownloadTemplate";
+        });*@
+
+        $('#Download_TP').click(function () {
+            PopTheLoading.Show();
+            $.ajax({
+                url: "@Humica.EF.Models.SY.SYUrl.getBaseUrl()" + "@ViewData[Humica.EF.Models.SY.SYConstant.CURRENT_URL]" + "DownloadTemplate",
+                xhrFields: {
+                    responseType: 'blob'
+                },
+                success: function(data) {
+                    var a = document.createElement('a');
+                    var url = window.URL.createObjectURL(data);
+                    // Generate filename with current date and time
+                    var date = new Date();
+                    var filename = 'ROUSTER_TEMPLATE_' + date.getFullYear() + '_' +
+                                  ('0' + (date.getMonth() + 1)).slice(-2) + '_' +
+                                  ('0' + date.getDate()).slice(-2) + '_' +
+                                  ('0' + date.getHours()).slice(-2) +
+                                  ('0' + date.getMinutes()).slice(-2) +
+                                  ('0' + date.getSeconds()).slice(-2);
+                    a.href = url;
+                    a.download = filename + '.xlsx';
+                    document.body.appendChild(a);
+                    a.click();
+                    setTimeout(function() {
+                        document.body.removeChild(a);
+                        window.URL.revokeObjectURL(url);
+                        PopTheLoading.Hide();
+                    }, 100);
+                },
+                error: function() {
+                    PopTheLoading.Hide();
+                    alert('Download failed');
+                }
+            });
         });
 
         $('#_btnGenerateAction').click(function () {
