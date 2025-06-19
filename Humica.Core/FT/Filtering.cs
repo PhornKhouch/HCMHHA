@@ -115,7 +115,9 @@ namespace Humica.Core.FT
         public bool IsIncludeBatch { get; set; }
         public bool IsIncludeHasUser { get; set; }
         public string Team { get; set; }
-    }
+		public DateTime Period1 { get; set; }
+		public DateTime Period2 { get; set; }
+	}
 
     public class FTFilterInOut
     {

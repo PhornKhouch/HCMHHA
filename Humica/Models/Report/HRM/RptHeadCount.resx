@@ -119,94 +119,143 @@
   </resheader>
   <data name="customSqlQuery1.Sql" xml:space="preserve">
     <value>SELECT 
-    HRHeadCount.Code AS CODE,
-    HRDepartment.DESCRIPTION AS DEPARTMENT,
-    HRHeadCount.EMPNO AS BUDGET,
+    H.Code AS CODE,
+    D.DESCRIPTION AS DEPARTMENT,
+    H.EMPNO AS BUDGET,
+    FORMAT(@Period1, 'MMM yyyy') AS PERIOD_1,
+    FORMAT(@Period2, 'MMM yyyy') AS PERIOD_2,
 
     -- New Staff
     (
-        SELECT COUNT(HRStaffProfile.EMPCODE) 
-        FROM HRStaffProfile 
-        WHERE HRStaffProfile.DEPT = HRHeadCount.Code
-          AND YEAR(HRStaffProfile.StartDate) = YEAR(@INMonth)
-          AND MONTH(HRStaffProfile.StartDate) = MONTH(@INMonth)
-          AND HRStaffProfile.Status = 'A'
-          AND (@Branch IS NULL OR @Branch = '' OR  
-               HRStaffProfile.Branch IN (
-                   SELECT Code 
-                   FROM HRBranch 
-                   WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
-               )
-          )
-    ) AS NEW_STAFF,
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        INNER JOIN HREmpCareer C ON P.EmpCode = C.EmpCode AND C.CareerCode = 'NEWJOIN'
+        WHERE P.DEPT = H.Code 
+          AND MONTH(C.EffectDate) = MONTH(@Period1) AND YEAR(C.EffectDate) = YEAR(@Period1)
+          AND P.Status = 'A'
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS NEW_STAFF_1,
 
     -- Leaver
     (
-        SELECT COUNT(HRStaffProfile.EMPCODE) 
-        FROM HRStaffProfile 
-        WHERE HRStaffProfile.DEPT = HRHeadCount.Code
-          AND YEAR(DATEADD(DAY, -1, HRStaffProfile.DateTerminate)) = YEAR(@INMonth)
-          AND MONTH(DATEADD(DAY, -1, HRStaffProfile.DateTerminate)) = MONTH(@INMonth)
-          AND HRStaffProfile.Status = 'I'
-          AND (@Branch IS NULL OR @Branch = '' OR  
-               HRStaffProfile.Branch IN (
-                   SELECT Code 
-                   FROM HRBranch 
-                   WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
-               )
-          )
-    ) AS LEAVER,
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        WHERE P.DEPT = H.Code 
+          AND MONTH(DATEADD(DAY, -1, P.DateTerminate)) = MONTH(@Period1)
+          AND YEAR(DATEADD(DAY, -1, P.DateTerminate)) = YEAR(@Period1)
+          AND P.Status = 'I'
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS LEAVER_1,
 
-    -- Staff Old
+    -- Plan Leaver (after Month1)
     (
-        SELECT COUNT(HRStaffProfile.EMPCODE)
-        FROM HRStaffProfile
-        WHERE HRStaffProfile.DEPT = HRHeadCount.Code 
-		  AND MONTH(StartDate)= MONTH(DATEADD(MONTH, -1, @INMonth)) AND YEAR(StartDate)= YEAR(DATEADD(MONTH, -1, @INMonth))
-          AND (YEAR(HRStaffProfile.DateTerminate) = 1900 
-               OR DATEADD(DAY, -1, HRStaffProfile.DateTerminate) &gt; DATEADD(MONTH, -1, @INMonth))
-          AND (@Branch IS NULL 
-               OR @Branch = '' 
-               OR HRStaffProfile.Branch IN (
-                   SELECT Code 
-                   FROM HRBranch 
-                   WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
-               )
-          )
-    ) AS STAFF_OLD,
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        WHERE P.DEPT = H.Code
+          AND DATEADD(DAY, -1, P.DateTerminate) &gt; EOMONTH(@Period1)
+          AND P.Status = 'I'
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS PLAN_LEAVER_1,
 
-    -- Current Staff
+    -- Staff Old (still active before start of Month1)
     (
-        SELECT COUNT(HRStaffProfile.EMPCODE) 
-        FROM HRStaffProfile 
-        WHERE HRStaffProfile.DEPT = HRHeadCount.Code 
-          AND StartDate &lt;= EOMONTH(@INMonth)
-          AND (HRStaffProfile.Status = 'A' 
-               OR (HRStaffProfile.Status = 'I' 
-                   AND DATEADD(DAY, -1, HRStaffProfile.DateTerminate) &gt;= DATEADD(DAY, 1 - DAY(@INMonth), @INMonth)))
-          AND (@Branch IS NULL OR @Branch = '' OR  
-               HRStaffProfile.Branch IN (
-                   SELECT Code 
-                   FROM HRBranch 
-                   WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
-               )
-          )
-    ) AS CURRENT_STAFF
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        WHERE P.DEPT = H.Code 
+          AND P.StartDate &lt;= EOMONTH(DATEADD(MONTH, -1, @Period1))
+          AND (P.DateTerminate IS NULL OR P.DateTerminate &gt; EOMONTH(DATEADD(MONTH, -1, @Period1)))
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS STAFF_OLD_1,
 
-FROM 
-    HRHeadCount 
-INNER JOIN 
-    HRDepartment ON HRDepartment.CODE = HRHeadCount.Code
-WHERE 
-    INYEAR = YEAR(@INMonth)
-GROUP BY 
-    HRHeadCount.Code,
-    HRDepartment.DESCRIPTION,
-    HRHeadCount.EMPNO
-ORDER BY 
-    HRDepartment.DESCRIPTION</value>
+    -- Current Staff (still working in Month1)
+    (
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        WHERE P.DEPT = H.Code 
+          AND (
+              P.Status = 'A' 
+              OR (P.Status = 'I' AND DATEADD(DAY, -1, P.DateTerminate) &gt;= DATEADD(DAY, 1 - DAY(@Period1), @Period1))
+          )
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS CURRENT_STAFF_1,
+    ------------------------
+    -- MONTH 2 METRICS
+    ------------------------
+    (
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        INNER JOIN HREmpCareer C ON P.EmpCode = C.EmpCode AND C.CareerCode = 'NEWJOIN'
+        WHERE P.DEPT = H.Code 
+          AND MONTH(C.EffectDate) = MONTH(@Period2) AND YEAR(C.EffectDate) = YEAR(@Period2)
+          AND P.Status = 'A'
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS NEW_STAFF_2,
+
+    (
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        WHERE P.DEPT = H.Code 
+          AND MONTH(DATEADD(DAY, -1, P.DateTerminate)) = MONTH(@Period2)
+          AND YEAR(DATEADD(DAY, -1, P.DateTerminate)) = YEAR(@Period2)
+          AND P.Status = 'I'
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS LEAVER_2,
+
+    (
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        WHERE P.DEPT = H.Code
+          AND DATEADD(DAY, -1, P.DateTerminate) &gt; EOMONTH(@Period2)
+          AND P.Status = 'I'
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS PLAN_LEAVER_2,
+
+    (
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        WHERE P.DEPT = H.Code 
+          AND P.StartDate &lt;= EOMONTH(DATEADD(MONTH, -1, @Period2))
+          AND (P.DateTerminate IS NULL OR P.DateTerminate &gt; EOMONTH(DATEADD(MONTH, -1, @Period2)))
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS STAFF_OLD_2,
+
+    (
+        SELECT COUNT(*) 
+        FROM HRStaffProfile P 
+        WHERE P.DEPT = H.Code 
+          AND (
+              P.Status = 'A' 
+              OR (P.Status = 'I' AND DATEADD(DAY, -1, P.DateTerminate) &gt;= DATEADD(DAY, 1 - DAY(@Period2), @Period2))
+          )
+          AND (@Branch IS NULL OR @Branch = '' OR P.Branch IN (
+              SELECT Code FROM HRBranch WHERE Code IN (SELECT Value FROM fn_Split(@Branch, ','))
+          ))
+    ) AS CURRENT_STAFF_2
+
+FROM HRHeadCount H
+INNER JOIN HRDepartment D ON D.Code = H.Code
+WHERE D.IsActive = 1
+ORDER BY D.SortKey;</value>
   </data>
   <data name="sqlDataSource1.ResultSchemaSerializable" xml:space="preserve">
-    <value>PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iQ09ERSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJERVBBUlRNRU5UIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkJVREdFVCIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9Ik5FV19TVEFGRiIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkxFQVZFUiIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IlNUQUZGX09MRCIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkNVUlJFTlRfU1RBRkYiIFR5cGU9IkludDMyIiAvPjwvVmlldz48L0RhdGFTZXQ+</value>
+    <value>PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iQ09ERSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJERVBBUlRNRU5UIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkJVREdFVCIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IlBFUklPRF8xIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlBFUklPRF8yIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Ik5FV19TVEFGRl8xIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iTEVBVkVSXzEiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJQTEFOX0xFQVZFUl8xIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iU1RBRkZfT0xEXzEiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJDVVJSRU5UX1NUQUZGXzEiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJORVdfU1RBRkZfMiIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkxFQVZFUl8yIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iUExBTl9MRUFWRVJfMiIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IlNUQUZGX09MRF8yIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iQ1VSUkVOVF9TVEFGRl8yIiBUeXBlPSJJbnQzMiIgLz48L1ZpZXc+PC9EYXRhU2V0Pg==</value>
   </data>
 </root>

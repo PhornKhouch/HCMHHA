@@ -28,7 +28,7 @@
                s.SelectedIndex = 0;
            }).BindList(ViewData["REPORT_TYPE_SELECT"]).Render();
        });
-        g.Items.AddEmptyItem();
+       // g.Items.AddEmptyItem();
         g.Items.Add(m =>
         {
             m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Branch");
@@ -49,11 +49,11 @@
        });
         g.Items.Add(m =>
         {
-            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("InMonth");
+            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Period1");
         })
            .SetNestedContent(() =>
            {
-               Html.DevExpress().DateEditFor(i => Model.InMonth, s =>
+               Html.DevExpress().DateEditFor(i => Model.Period1, s =>
                {
                    s.ShowModelErrors = true;
                    s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
@@ -65,7 +65,24 @@
                    s.Properties.DisplayFormatString = ViewData[Humica.EF.SYSConstant.DATE_FORMAT_PERIOD].ToString();
                }).Render();
            });
-
+        g.Items.Add(m =>
+        {
+            m.Caption = Humica.EF.Models.SY.SYSettings.getLabel("Period2");
+        })
+       .SetNestedContent(() =>
+       {
+           Html.DevExpress().DateEditFor(i => Model.Period2, s =>
+           {
+               s.ShowModelErrors = true;
+               s.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithTooltip;
+               s.Properties.ValidationSettings.SetFocusOnError = true;
+               s.Properties.ValidationSettings.ErrorText = "*";
+               s.Properties.PickerType = DatePickerType.Months;
+               s.Properties.NullText = ViewData[Humica.EF.SYSConstant.DATE_FORMAT_PERIOD].ToString();
+               s.Properties.EditFormatString = ViewData[Humica.EF.SYSConstant.DATE_FORMAT_PERIOD].ToString();
+               s.Properties.DisplayFormatString = ViewData[Humica.EF.SYSConstant.DATE_FORMAT_PERIOD].ToString();
+           }).Render();
+       });
     });
 
 }).Bind(Model).GetHtml()

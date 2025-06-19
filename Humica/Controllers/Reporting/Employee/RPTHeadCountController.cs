@@ -37,8 +37,9 @@ namespace Humica.Controllers.Reporting
             UserSession();
             UserConfListAndForm();
             FTFilterEmployee Filter = new FTFilterEmployee();
-            Filter.InMonth = DateTime.Now;
-            return View(Filter);
+            Filter.Period1 = DateTime.Now;
+			Filter.Period2 = DateTime.Now;
+			return View(Filter);
         }
         [HttpPost]
         public ActionResult Index(FTFilterEmployee Filter)
